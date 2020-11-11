@@ -40,19 +40,6 @@
 <logicalDatatype>LOGDT007</logicalDatatype>
 <ownDataTypeParameters>,,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_EVENTO" id="48084509-4740-8697-C6A0-596F93B61A1E">
-<createdBy>guiro</createdBy>
-<createdTime>2020-11-11 01:37:22 UTC</createdTime>
-<ownerDesignName>MER_NEXTSTEP</ownerDesignName>
-<engineerTo>
-<item key="90858FBD-07D3-D713-B886-F64884D41C22" value="true"/>
-</engineerTo>
-<useDomainConstraints>false</useDomainConstraints>
-<use>1</use>
-<logicalDatatype>LOGDT024</logicalDatatype>
-<dataTypeSize>600</dataTypeSize>
-<ownDataTypeParameters>600,,</ownDataTypeParameters>
-</Attribute>
 <Attribute name="URL_FOTO" id="0AB5946B-F242-852F-BE23-1A31EE092913">
 <createdBy>guiro</createdBy>
 <createdTime>2020-11-11 01:38:03 UTC</createdTime>
