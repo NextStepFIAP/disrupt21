@@ -45,7 +45,7 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
-<Attribute name="DS_EVENTO" id="CB05972A-645D-A339-8487-6C7523CA6F3F">
+<Attribute name="DS_EVENTO_PERSONAGEM" id="CB05972A-645D-A339-8487-6C7523CA6F3F">
 <createdBy>guiro</createdBy>
 <createdTime>2020-11-11 22:15:05 UTC</createdTime>
 <ownerDesignName>MER_NEXTSTEP</ownerDesignName>
