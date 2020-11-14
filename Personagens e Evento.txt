@@ -1,0 +1,39 @@
+Personagens
+
+Marty McFly, Michael J. Fox, url_foto, 12/06/1964, apresentação, protagonista
+Dave McFly, Marc McClure, url_foto, 05/11/1963, apresentação, secundário
+Linda McFly, Wendle Jo Sperber, url_foto, xx/xx/1966, apresentação, secundário
+
+George McFly, Crispin Glover, url_foto, 01/04/1938, apresentação, secundário
+George McFly, Crispin Glover, url_foto, 01/04/1938, apresentaçãoPassado, secundário
+George McFly, Crispin Glover, url_foto, 01/04/1938, apresentaçãoNovoPresente, secundário
+
+Lorraine Baines McFly, Lea Thompson, url_foto, xx/xx/1938, apresentação, secundário
+Lorraine Baines McFly, Lea Thompson, url_foto, xx/xx/1938, apresentaçãoPassado, secundário
+Lorraine Baines McFly, Lea Thompson, url_foto, xx/xx/1938, apresentaçãoNovoPresente, secundário
+
+Emmett Brown, Christopher Lloyd, url_foto, xx/xx/1908, apresentação, coadjuvante
+Emmett Brown, Christopher Lloyd, url_foto, xx/xx/1908, apresentaçãoPassado, coadjuvante
+
+Biff Tannen, Tom Wilson, url_foto, 27/03/1937, apresentação, antagonista
+Biff Tannen, Tom Wilson, url_foto, 27/03/1937, apresentaçãoPassado, antagonista
+Biff Tannen, Tom Wilson, url_foto, 27/03/1937, apresentaçãoNovoPresente, antagonista
+
+============================================================================================================
+Eventos
+
+Marty chega da escola e vê Biff, chefe de seu pai, dizer que o carro está todo quebrado -> Marty, George, Biff
+Viagem no tempo com Einstein -> Marty, Emmett ???????
+Libaneses Atacam o Emmett, Marty vai para o futuro -> Marty, Emmett
+Marty se encontra com seu pai na lanchonete -> Marty, George, Biff
+Marty é atropelado pelo pai de Lorraine (a vítima era para ter sido seu pai, por conta disso Lorraine se apaixona por Marty) -> Marty, George, Lorraine
+Marty se encontra com o doutor e mostra para ele, com algumas dificuldades, que realmente veio do futuro -> Marty, Emmett
+Marty percebe que seu irmão começa a desaparecer em uma foto -> Marty, Emmett
+Marty vai para a escola incentivar George a levar Lorraine ao baile -> Marty, Emmett, George, Lorraine
+Marty escreve uma carta para o Emmett sobre os Libaneses -> Marty (ISSO FEZ O EMMETT VESTIR O COLETE NA NOITE DE 1985)
+George "salva" Lorraine de Biff -> George, Lorraine, Biff (ISSO FEZ ELE DEIXAR DE SER FUNCIONÁRIO E VIRAR O CHEFE)
+Os pais de Marty se beijam e as pessoas na foto voltam ao normal -> Marty, George, Lorraine
+Marty volta para o futuro -> Marty, Emmett
+Doutor mostra que estava usando o colete a prova de balas, e também mostra a carta escrita por Marty -> Marty, Emmett
+Marty volta para casa e, quando acorda, percebe que está mais rico e todos seus parentes diferentes. Biff agora é empregado de seu pai e o carro não está mais quebrando -> Marty, George, Lorraine, Biff, Linda, Dave
+ 
