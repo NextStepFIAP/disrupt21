@@ -6,6 +6,7 @@ public class Evento implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 	private int id;
+	private String nome;
 	private String data;
 	private String descricao;
 	private String urlFoto;
@@ -13,13 +14,16 @@ public class Evento implements Serializable{
 	public Evento() {
 		super();
 	}
-	public Evento(int id, String data, String descricao, String urlFoto) {
+
+	public Evento(int id, String nome, String data, String descricao, String urlFoto) {
 		super();
 		this.id = id;
+		this.nome = nome;
 		this.data = data;
 		this.descricao = descricao;
 		this.urlFoto = urlFoto;
 	}
+
 	public int getId() {
 		return id;
 	}
@@ -47,6 +51,6 @@ public class Evento implements Serializable{
 	
 	@Override
 	public String toString() {
-		return "Evento [id=" + id + ", data=" + data + ", descricao=" + descricao + ", urlFoto=" + urlFoto + "]";
+		return "Evento [id=" + id + ", nome=" + nome + "data=" + data + ", descricao=" + descricao + ", urlFoto=" + urlFoto + "]";
 	}
 }

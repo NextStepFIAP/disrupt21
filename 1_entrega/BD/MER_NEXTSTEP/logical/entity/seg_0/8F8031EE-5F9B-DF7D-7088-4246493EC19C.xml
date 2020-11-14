@@ -28,6 +28,19 @@
 <dataTypePrecision>2</dataTypePrecision>
 <ownDataTypeParameters>,2,</ownDataTypeParameters>
 </Attribute>
+<Attribute name="NM_EVENTO" id="CA6DFFBD-B2E8-23F1-55AC-227EAD391E31">
+<createdBy>guiro</createdBy>
+<createdTime>2020-11-13 22:49:49 UTC</createdTime>
+<ownerDesignName>MER_NEXTSTEP</ownerDesignName>
+<engineerTo>
+<item key="90858FBD-07D3-D713-B886-F64884D41C22" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+</Attribute>
 <Attribute name="DT_EVENTO" id="8547FFE3-A04D-2789-B1BA-A8F80F384BF5">
 <createdBy>guiro</createdBy>
 <createdTime>2020-11-11 01:37:02 UTC</createdTime>
