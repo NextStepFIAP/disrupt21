@@ -6,7 +6,7 @@
 
 @font-face {
   font-family: 'bttf';
-  src: url(/css/BTTF.ttf);
+  src: url('BTTF.ttf');
 }
 
 * {
