@@ -32,6 +32,17 @@
 <ownDataTypeParameters>128,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="NM_EN_EVENTO" id="40AA6A82-E2C9-CB4A-284F-640C42A49247">
+<createdBy>guiro</createdBy>
+<createdTime>2020-11-17 02:50:37 UTC</createdTime>
+<ownerDesignName>MER_NEXTSTEP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>128</dataTypeSize>
+<ownDataTypeParameters>128,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="DT_EVENTO" id="3DBA7881-7F3E-CC2D-D368-A6C6C493B9FD">
 <createdBy>guiro</createdBy>
 <createdTime>2020-11-13 22:51:29 UTC</createdTime>
@@ -59,6 +70,17 @@
 <createdBy>guiro</createdBy>
 <createdTime>2020-11-13 22:51:29 UTC</createdTime>
 <generatorID>1E2A7218-3D42-255F-ED0D-9A5604D94651</generatorID>
+<ownerDesignName>MER_NEXTSTEP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>600</dataTypeSize>
+<ownDataTypeParameters>600,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="DS_EN_EVENTO" id="6B3A2846-08A5-638E-CFAD-D5B0EF41D595">
+<createdBy>guiro</createdBy>
+<createdTime>2020-11-17 02:50:50 UTC</createdTime>
 <ownerDesignName>MER_NEXTSTEP</ownerDesignName>
 <useDomainConstraints>false</useDomainConstraints>
 <use>1</use>

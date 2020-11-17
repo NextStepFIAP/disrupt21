@@ -79,6 +79,17 @@
 <ownDataTypeParameters>600,,</ownDataTypeParameters>
 <autoIncrementCycle>false</autoIncrementCycle>
 </Column>
+<Column name="DS_EN_APRESENTACAO" id="C592C785-2DD4-0CF5-1BF1-B2DA46165781">
+<createdBy>guiro</createdBy>
+<createdTime>2020-11-17 02:50:03 UTC</createdTime>
+<ownerDesignName>MER_NEXTSTEP</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>600</dataTypeSize>
+<ownDataTypeParameters>600,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
 <Column name="NM_CLASSIFICACAO" id="1BB33B3F-2C17-4208-BF92-7BC53A9C4B3E">
 <createdBy>guiro</createdBy>
 <createdTime>2020-11-13 22:51:29 UTC</createdTime>
