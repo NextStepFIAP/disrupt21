@@ -3,6 +3,15 @@ $(window).on("load", function() {
     activeDate = 0,
     noDates = $(".date").length;
   
+  var hash = window.location.hash
+
+  if(hash){
+    $(hash).addClass("active")
+    setTimeout(function(){
+      $(hash).click();
+    },150)
+  }
+
   function changeDate(a) {
     if (a < 0) {
       activeDate = 0;

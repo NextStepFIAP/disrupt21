@@ -1,12 +1,13 @@
+@font-face {
+  font-family: 'bttf';
+  src: url(/css/BTTF.ttf);
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: sans-serif;
-}
-
-html, html * {
-  font-family: 'Oswald', sans-serif;
+  font-family: 'bttf';
 }
 
 * {
@@ -15,7 +16,7 @@ html, html * {
   -moz-osx-font-smoothing: grayscale;
 }
 
-h1 {
+.time-line__title {
   font-size: 40px;
   width: 1200px;
   text-transform: uppercase;
@@ -35,13 +36,16 @@ h1 {
   align-items: center;
   cursor: pointer;
 }
+
 .controls:hover:after {
   transform: translateX(-10px) rotate(45deg);
 }
+
 .controls:hover:active:after {
   transform: translateX(-20px) rotate(45deg);
   transition: 300ms all;
 }
+
 .controls:after {
   content: "";
   position: absolute;
@@ -52,6 +56,7 @@ h1 {
   border-bottom: 4px solid #fff;
   transition: 500ms all;
 }
+
 .controls.next {
   left: auto;
   right: 120px;
@@ -68,9 +73,11 @@ h1 {
   position: fixed;
   bottom: 0;
 }
+
 .time-line * {
   transition: 800ms all cubic-bezier(0.23, 1, 0.32, 1);
 }
+
 .time-line .dates-overflow {
   left: 0;
   width: 500vw;
@@ -78,13 +85,16 @@ h1 {
   bottom: 50px;
   height: 50px;
 }
+
 .time-line .dates-wrap {
   display: inline-block;
   position: absolute;
   height: 100%;
   left: calc(50vw - 80px);
 }
-.time-line .dates-wrap:before, .time-line .dates-wrap:after {
+
+.time-line .dates-wrap:before,
+.time-line .dates-wrap:after {
   content: '';
   position: absolute;
   width: 160px;
@@ -94,12 +104,14 @@ h1 {
   background: linear-gradient(to right, #0053a0 0%, rgba(125, 185, 232, 0) 100%);
   z-index: 2;
 }
+
 .time-line .dates-wrap:after {
   left: auto;
   right: -1px;
   background: linear-gradient(to left, #0053a0 0%, rgba(125, 185, 232, 0) 100%);
   transform: translate(50%, -50%);
 }
+
 .time-line .dates-wrap .date {
   width: 160px;
   position: relative;
@@ -110,6 +122,7 @@ h1 {
   align-items: center;
   transition: 800ms all cubic-bezier(0.23, 1, 0.32, 1);
 }
+
 .time-line .dates-wrap .date .date-content {
   visibility: hidden;
   position: absolute;
@@ -122,6 +135,7 @@ h1 {
   transform: scale(0.7);
   box-shadow: 0 10px 30px rgba(0, 0, 0, 0);
 }
+
 .time-line .dates-wrap .date .date-content:after {
   content: "";
   position: absolute;
@@ -136,6 +150,7 @@ h1 {
   transform-origin: 100% 100%;
   transition: 800ms all cubic-bezier(0.23, 1, 0.32, 1);
 }
+
 .time-line .dates-wrap .date .date-content .date-image {
   width: 100%;
   height: calc(100% - 60px);
@@ -143,10 +158,12 @@ h1 {
   background-size: cover;
   background-position: center;
 }
-.time-line .dates-wrap .date .date-content > div {
+
+.time-line .dates-wrap .date .date-content>div {
   opacity: 0;
   transform: translateY(40px);
 }
+
 .time-line .dates-wrap .date .date-content .date-text {
   width: 100%;
   height: 60px;
@@ -156,6 +173,7 @@ h1 {
   align-items: center;
   color: #0053A0;
 }
+
 .time-line .dates-wrap .date .date-year {
   opacity: 0.4;
   width: 100%;
@@ -165,12 +183,15 @@ h1 {
   align-items: center;
   cursor: pointer;
 }
+
 .time-line .dates-wrap .date .date-year:hover {
   opacity: 1 !important;
 }
+
 .time-line .dates-wrap .date .date-year:hover:after {
   transform: scale(1) !important;
 }
+
 .time-line .dates-wrap .date .date-year p {
   position: absolute;
   top: 0px;
@@ -181,6 +202,7 @@ h1 {
   transform: scale(0.4);
   z-index: 2;
 }
+
 .time-line .dates-wrap .date .date-year:after {
   content: "";
   position: absolute;
@@ -193,6 +215,7 @@ h1 {
   transform: scale(0.4);
   transition: 500ms all;
 }
+
 .time-line .dates-wrap .date .date-year:before {
   content: "";
   position: absolute;
@@ -201,45 +224,58 @@ h1 {
   height: 1px;
   background-color: #fff;
 }
+
 .time-line .dates-wrap .date.sibling .date-year {
   opacity: 0.6;
 }
+
 .time-line .dates-wrap .date.sibling .date-year:after {
   transform: scale(0.8);
 }
+
 .time-line .dates-wrap .date.sibling .date-year p {
   transform: scale(0.6);
 }
-.time-line .dates-wrap .date.active + .date .date-year {
+
+.time-line .dates-wrap .date.active+.date .date-year {
   opacity: 0.6;
 }
-.time-line .dates-wrap .date.active + .date .date-year:after {
+
+.time-line .dates-wrap .date.active+.date .date-year:after {
   transform: scale(0.8);
 }
-.time-line .dates-wrap .date.active + .date .date-year p {
+
+.time-line .dates-wrap .date.active+.date .date-year p {
   transform: scale(0.6);
 }
+
 .time-line .dates-wrap .date.active .date-year {
   opacity: 1;
 }
+
 .time-line .dates-wrap .date.active .date-year:before {
   width: calc(200% - 11px);
 }
+
 .time-line .dates-wrap .date.active .date-year:after {
   transform: scale(1);
 }
+
 .time-line .dates-wrap .date.active .date-year p {
   transform: scale(1.2);
 }
+
 .time-line .dates-wrap .date.active .date-content {
   transform: scale(1);
   visibility: visible;
 }
+
 .time-line .dates-wrap .date.active .date-content:after {
   transition-delay: 200ms;
   opacity: 1;
   transform: scaleY(1);
 }
+
 .time-line .dates-wrap .date.active .date-content div {
   transition-delay: 200ms;
   opacity: 1;

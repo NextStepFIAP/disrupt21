@@ -1,110 +1,132 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>CodePen - Interactive Timeline</title>
-  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet"><link rel="stylesheet" href="../css/timeline.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+  <link rel="stylesheet" href="../css/global.css">
+  <link rel="stylesheet" href="../css/timeline.css">
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<div class="time-line">
-  <h1>Our Timeline</h1>
-  <div class="controls" data-direction="-1"></div>
-  <div class="controls next" data-direction="1"></div>
-  <div class="dates-overflow">
-    
- 
-  <div class="dates-wrap">
-    <div class="date active">
-      <div class="date-year">
-        <p>1979</p>
+
+  <header>
+    <nav class="menu-nav mobile-menu">
+      <ul class="title-list">
+        <li>
+          <h1><a href="/">HOME</a></h1>
+        </li>
+        <li>
+          <h1><a href="./characters.html">Personagens</a></h1>
+        </li>
+        <li>
+          <h1><a href="./timeline.html">Timeline</a></h1>
+        </li>
+        <li>
+          <h1><a href="#ia">I.A</a></h1>
+        </li>
+        <li>
+          <h1><a href="#uml">UML</a></h1>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <section class="time-line" class="content">
+    <h1 class="time-line__title">A TIMELINE</h1>
+    <div class="controls" data-direction="-1"></div>
+    <div class="controls next" data-direction="1"></div>
+    <div class="dates-overflow">
+      <div class="dates-wrap">
+        <div class="date">
+          <div class="date-year">
+            <p>1955</p>
+          </div>
+          <div class="date-content">
+            <div class="date-image"></div>
+            <div class="date-text">lorem ipsum</div>
+          </div>
+        </div>
+        <div class="date" id="emmet-v1">
+          <div class="date-year">
+            <p>1955</p>
+          </div>
+          <div class="date-content">
+            <div class="date-image"></div>
+            <div class="date-text">lorem ipsum</div>
+          </div>
+        </div>
+        <div class="date">
+          <div class="date-year">
+            <p>1955</p>
+          </div>
+          <div class="date-content">
+            <div class="date-image"></div>
+            <div class="date-text">lorem ipsum</div>
+          </div>
+        </div>
+        <div class="date">
+          <div class="date-year">
+            <p>1985</p>
+          </div>
+          <div class="date-content">
+            <div class="date-image"></div>
+            <div class="date-text">lorem ipsum</div>
+          </div>
+        </div>
+        <div class="date" id="emmet-v2">
+          <div class="date-year">
+            <p>1985</p>
+          </div>
+          <div class="date-content">
+            <div class="date-image"></div>
+            <div class="date-text">lorem ipsum</div>
+          </div>
+        </div>
+        <div class="date">
+          <div class="date-year">
+            <p>1985</p>
+          </div>
+          <div class="date-content">
+            <div class="date-image"></div>
+            <div class="date-text">lorem ipsum</div>
+          </div>
+        </div>
+        <div class="date">
+          <div class="date-year">
+            <p>2015</p>
+          </div>
+          <div class="date-content">
+            <div class="date-image"></div>
+            <div class="date-text">lorem ipsum</div>
+          </div>
+        </div>
+        <div class="date">
+          <div class="date-year" id="emmet-v3">
+            <p>2015</p>
+          </div>
+          <div class="date-content">
+            <div class="date-image"></div>
+            <div class="date-text">lorem ipsum</div>
+          </div>
+        </div>
+        <div class="date">
+          <div class="date-year">
+            <p>2015</p>
+          </div>
+          <div class="date-content">
+            <div class="date-image"></div>
+            <div class="date-text">lorem ipsum</div>
+          </div>
+        </div>
       </div>
-      <div class="date-content">
-        <div class="date-image"></div>
-        <div class="date-text">lorem ipsum</div>
-      </div> 
     </div>
-    <div class="date">
-      <div class="date-year">
-        <p>1979</p>
-      </div>
-      <div class="date-content">
-        <div class="date-image"></div>
-        <div class="date-text">lorem ipsum</div>
-      </div>
-    </div>
-    <div class="date">
-      <div class="date-year">
-        <p>1979</p>
-      </div>
-      <div class="date-content">
-        <div class="date-image"></div>
-        <div class="date-text">lorem ipsum</div>
-      </div>
-    </div>
-    <div class="date">
-      <div class="date-year">
-        <p>1979</p>
-      </div>
-      <div class="date-content">
-        <div class="date-image"></div>
-        <div class="date-text">lorem ipsum</div>
-      </div>
-    </div>
-    <div class="date">
-      <div class="date-year">
-        <p>1979</p>
-      </div>
-      <div class="date-content">
-        <div class="date-image"></div>
-        <div class="date-text">lorem ipsum</div>
-      </div>
-    </div>
-    <div class="date">
-      <div class="date-year">
-        <p>1979</p>
-      </div>
-      <div class="date-content">
-        <div class="date-image"></div>
-        <div class="date-text">lorem ipsum</div>
-      </div>
-    </div>
-    <div class="date">
-      <div class="date-year">
-        <p>1979</p>
-      </div>
-      <div class="date-content">
-        <div class="date-image"></div>
-        <div class="date-text">lorem ipsum</div>
-      </div>
-    </div>
-    <div class="date">
-      <div class="date-year">
-        <p>1979</p>
-      </div>
-      <div class="date-content">
-        <div class="date-image"></div>
-        <div class="date-text">lorem ipsum</div>
-      </div>
-    </div>
-    <div class="date">
-      <div class="date-year">
-        <p>1979</p>
-      </div>
-      <div class="date-content">
-        <div class="date-image"></div>
-        <div class="date-text">lorem ipsum</div>
-      </div>
-    </div>
-     </div>
-    
-    
-  </div>
-</div>
-<!-- partial -->
+  </section>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-  <script  src="../js/timeline.js"></script>
+  <script src="../js/timeline.js"></script>
 
 </body>
+
 </html>

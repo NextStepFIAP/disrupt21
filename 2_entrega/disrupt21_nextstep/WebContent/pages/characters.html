@@ -1,78 +1,141 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <title>CodePen - 4 Panel Timeline CSS</title>
-        <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Source+Sans+Pro:400" rel="stylesheet">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-<link rel="stylesheet" href="../css/characters.css">
+  <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Source+Sans+Pro:400" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <link rel="stylesheet" href="../css/characters.css">
+  <link rel="stylesheet" href="../css/global.css">
 
 </head>
+
 <body>
-<!-- partial:index.partial.html -->
-<section id="timeline">
+  <!-- partial:index.partial.html -->
+
+  <header>
+    <nav class="menu-nav mobile-menu">
+      <ul class="title-list">
+        <li>
+          <h1><a href="/">HOME</a></h1>
+        </li>
+        <li>
+          <h1><a href="./characters.html">Personagens</a></h1>
+        </li>
+        <li>
+          <h1><a href="./timeline.html">Timeline</a></h1>
+        </li>
+        <li>
+          <h1><a href="#ia">I.A</a></h1>
+        </li>
+        <li>
+          <h1><a href="#uml">UML</a></h1>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
   
-  <div class="tl-item">
-    
-    <div class="tl-bg" style="background-image: url(https://placeimg.com/801/801/nature)"></div>
-    
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">2011</p>
+
+  <section id="timeline" class="content">
+
+    <div class="tl-item">
+
+      <div class="tl-bg" style="background-image: url(/img/character_mc-fly.jpg)"></div>
+
+      <div class="tl-year">
+        <p class="f2 heading--sanSerif">McFly</p>
+      </div>
+
+      <div class="tl-content">
+        <h1>Marty McFly</h1>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
+          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
+          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+      </div>
+
     </div>
 
-    <div class="tl-content">
-      <h1>Lorem ipsum dolor sit</h1>
-      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+    <div class="tl-item">
+
+      <div class="tl-bg" style="background-image: url(/img/character_emmet-brown.jpg)"></div>
+
+      <div class="tl-year">
+        <p class="f2 heading--sanSerif">Emmet</p>
+      </div>
+
+      <div class="tl-content">
+        <h1 class="f3 text--accent ttu">Emmet Brown</h1>
+        <p>Suspendisse potenti. Sed sollicitudin eros lorem, eget accumsan risus dictum id. Maecenas dignissim ipsum vel
+          mi rutrum egestas. Donec mauris nibh, facilisis ut hendrerit vel, fringilla sed felis. Morbi sed nisl et arcu.
+        </p>
+
+        <div class="tl-content__versions">
+          <a href="./timeline.html#emmet-v1">V1</a>
+          <a href="./timeline.html#emmet-v2">V2</a>
+          <a href="./timeline.html#emmet-v3">V3</a>
+        </div>
+      </div>
+
     </div>
 
-  </div>
+    <div class="tl-item">
 
-  <div class="tl-item">
-    
-    <div class="tl-bg" style="background-image: url(https://placeimg.com/802/802/nature)"></div>
-    
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">2013</p>
+      <div class="tl-bg" style="background-image: url(/img/character_lorraine.jpg)"></div>
+
+      <div class="tl-year">
+        <p class="f2 heading--sanSerif">Lorraine</p>
+      </div>
+
+      <div class="tl-content">
+        <h1 class="f3 text--accent ttu">Lorraine Baines McFly</h1>
+        <p>Mauris cursus magna at libero lobortis tempor. Suspendisse potenti. Aliquam interdum vulputate neque sit amet
+          varius. Maecenas ac pulvinar nisi. Fusce vitae nunc ultrices, tristique dolor at, porttitor dolor. Etiam id
+          cursus arcu, in dapibus nibh. Pellentesque non porta leo. Nulla eros odio, egestas quis efficitur vel, pretium
+          sed.</p>
+      </div>
+
     </div>
 
-    <div class="tl-content">
-      <h1 class="f3 text--accent ttu">Vestibulum laoreet lorem</h1>
-      <p>Suspendisse potenti. Sed sollicitudin eros lorem, eget accumsan risus dictum id. Maecenas dignissim ipsum vel mi rutrum egestas. Donec mauris nibh, facilisis ut hendrerit vel, fringilla sed felis. Morbi sed nisl et arcu.</p>
+    <div class="tl-item">
+
+      <div class="tl-bg" style="background-image: url(/img/character_george.jpg)"></div>
+
+      <div class="tl-year">
+        <p class="f2 heading--sanSerif">George</p>
+      </div>
+
+      <div class="tl-content">
+        <h1 class="f3 text--accent ttu">George McFly</h1>
+        <p>Suspendisse ac mi at dolor sodales faucibus. Nunc sagittis ornare purus non euismod. Donec vestibulum
+          efficitur tortor, eget efficitur enim facilisis consequat. Vivamus laoreet laoreet elit. Ut ut varius metus,
+          bibendum imperdiet ex. Curabitur diam quam, blandit at risus nec, pulvinar porttitor lorem. Pellentesque dolor
+          elit.</p>
+      </div>
+
     </div>
 
-  </div>
+    <div class="tl-item">
 
-  <div class="tl-item">
-    
-    <div class="tl-bg" style="background-image: url(https://placeimg.com/803/803/nature)"></div>
-    
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">2014</p>
+      <div class="tl-bg" style="background-image: url(/img/character_biff.jpg)"></div>
+
+      <div class="tl-year">
+        <p class="f2 heading--sanSerif">Biff</p>
+      </div>
+
+      <div class="tl-content">
+        <h1 class="f3 text--accent ttu">George McFly</h1>
+        <p>Suspendisse ac mi at dolor sodales faucibus. Nunc sagittis ornare purus non euismod. Donec vestibulum
+          efficitur tortor, eget efficitur enim facilisis consequat. Vivamus laoreet laoreet elit. Ut ut varius metus,
+          bibendum imperdiet ex. Curabitur diam quam, blandit at risus nec, pulvinar porttitor lorem. Pellentesque dolor
+          elit.</p>
+      </div>
+
     </div>
+  </section>
+  <!-- partial -->
 
-    <div class="tl-content">
-      <h1 class="f3 text--accent ttu">Phasellus mauris elit</h1>
-      <p>Mauris cursus magna at libero lobortis tempor. Suspendisse potenti. Aliquam interdum vulputate neque sit amet varius. Maecenas ac pulvinar nisi. Fusce vitae nunc ultrices, tristique dolor at, porttitor dolor. Etiam id cursus arcu, in dapibus nibh. Pellentesque non porta leo. Nulla eros odio, egestas quis efficitur vel, pretium sed.</p>
-    </div>
-
-  </div>
-
-  <div class="tl-item">
-    
-    <div class="tl-bg" style="background-image: url(https://placeimg.com/800/800/nature)"></div>
-    
-    <div class="tl-year">
-      <p class="f2 heading--sanSerif">2016</p>
-    </div>
-
-    <div class="tl-content">
-      <h1 class="f3 text--accent ttu">Mauris vitae nunc elem</h1>
-      <p>Suspendisse ac mi at dolor sodales faucibus. Nunc sagittis ornare purus non euismod. Donec vestibulum efficitur tortor, eget efficitur enim facilisis consequat. Vivamus laoreet laoreet elit. Ut ut varius metus, bibendum imperdiet ex. Curabitur diam quam, blandit at risus nec, pulvinar porttitor lorem. Pellentesque dolor elit.</p>
-    </div>
-
-  </div>
-</section>
-<!-- partial -->
-  
 </body>
+
 </html>
