@@ -24,7 +24,7 @@ INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, d
 VALUES (sq_nxt_personagem.NEXTVAL, 'Emmett Brown', 'Christopher Lloyd', 'url', TO_DATE('1908-01-01', 'YYYY-MM-DD'), 'Doutor Emmett Brown é um cientista que mora em Hill Valley e sempre está em busca de novas invenções e constantemente as colocando em testes. O Doutor também é grande amigo de Marty, que sempre o acompanha em suas experiências, a principal delas sendo a máquina do tempo feita a partir de um DeLorean.', 'apresentacao ingles', 'Coadjuvante');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao) 
-VALUES (sq_nxt_personagem.NEXTVAL, 'Emmett Brown', 'Christopher Lloyd', 'url', TO_DATE('1908-01-01', 'YYYY-MM-DD'), 'Doutor Emmett Brown é um cientista na década de 1950. Sua sede por descobertas o fazem ficar dia e noite estudando sobre a possibilidade de inventar uma máquina capaz de viajar pelo tempo.', 'apresentacao ingles', 'Coadjuvante');
+VALUES (sq_nxt_personagem.NEXTVAL, 'Emmett Brown', 'Christopher Lloyd', 'url', TO_DATE('1908-01-01', 'YYYY-MM-DD'), 'Doutor Emmett Brown é um cientista na década de 1950. Sua sede por descobertas o faz ficar dia e noite estudando sobre a possibilidade de inventar uma máquina capaz de viajar pelo tempo.', 'apresentacao ingles', 'Coadjuvante');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao) 
 VALUES (sq_nxt_personagem.NEXTVAL, 'Biff Tannen', 'Tom Wilson', 'url', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 'Biff é um empresário e, assim como nos tempos do colegial, ameaça seus funcionários e os pedem para fazer seu serviço, em especial George McFly muito pelo fato dele ser casado com a paixão da adolescência de Biff.', 'apresentacao ingles', 'Antagonista');
@@ -79,7 +79,7 @@ INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto
 VALUES(sq_nxt_evento.NEXTVAL, 'Aqui Estão Suas Cahves', 'Here is Your Keys', TO_DATE('1985-10-26', 'YYYY-MM-DD'), 'url', 'Em decorrência de todas as alterações no passado, Marty agora vive em uma bela casa com o carro dos seus sonhos. George, que era funcionário de Biff, agora o tem como seu próprio empregado. Marty fez com que nada se alterasse em relação à sua família, mas a influência que ele passou para seu pai fez com que George elevasse altamente o padrão de vida dos McFly.', 'ds_en');
 
 --PERSONAGEM EVENTO -> Nesta tabela associativa saberemos quais persoangens participaram dos eventos cadastrados.
---Teremos a descrição de cada personagem em todos os eventos
+--Teremos a descrição de cada personagem em todos os eventos que eles participam
 INSERT INTO t_nxt_personagem_evento(id_personagem, id_evento, ds_evento_personagem)
 VALUES(1, 1, 'descricao');
 
