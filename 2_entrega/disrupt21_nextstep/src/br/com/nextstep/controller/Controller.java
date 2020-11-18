@@ -36,7 +36,7 @@ public class Controller extends HttpServlet {
 				case "/disrupt21_nextstep/timeline":
 					response.sendRedirect("./pages/timeline.html");
 				case "/disrupt21_nextstep/ia":
-					response.sendRedirect(".");
+					response.sendRedirect("https://colab.research.google.com/drive/1r-Ywxrq6E47mr-6QctjnBKtmPuhyuivH#scrollTo=dG0GRrmHCVm2");
 				case "/disrupt21_nextstep/uml":
 					response.sendRedirect("./pages/uml.html");
 				default:
