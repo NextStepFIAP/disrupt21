@@ -28,7 +28,7 @@ section.content{
 }
 
 header {
-  position: fixed;
+  position: absolute;
   width: 100%;
   height: 80px;
   padding: 10px 40px;
@@ -104,6 +104,18 @@ header nav li a:hover::after,
 header .title-list li:hover {
   color: cyan;
 }
+
+footer {
+  position: absolute;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  bottom: 0;
+  z-index: 1000;
+  align-items: center;
+}
+
+
 
 @media screen and (min-width:1600px) {
   header .title-list li {
