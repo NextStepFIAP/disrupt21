@@ -1,42 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<%@ include file="./snippets/imports_head.jsp"%>
 
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - 4 Panel Timeline CSS</title>
+
+
+
+
+  
+<body>
+
+<%@ include file="./snippets/header.jsp"%>
+
+
   <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Source+Sans+Pro:400" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel="stylesheet" href="../css/characters.css">
-  <link rel="stylesheet" href="../css/global.css">
-
-</head>
-
-<body>
-  <!-- partial:index.partial.html -->
-
-  <header>
-    <nav class="menu-nav mobile-menu">
-      <ul class="title-list">
-        <li>
-          <h1><a href="/index.html">HOME</a></h1>
-        </li>
-        <li>
-          <h1><a href="./characters.html">Personagens</a></h1>
-        </li>
-        <li>
-          <h1><a href="./timeline.html">Timeline</a></h1>
-        </li>
-        <li>
-          <h1><a href="#ia">I.A</a></h1>
-        </li>
-        <li>
-          <h1><a href="#uml">UML</a></h1>
-        </li>
-      </ul>
-    </nav>
-  </header>
-
-  
 
   <section id="timeline" class="content">
 
