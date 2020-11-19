@@ -1,38 +1,18 @@
-<!DOCTYPE html>
-<html lang="en">
+<%@ include file="./snippets/imports_head.jsp"%>
 
-<head>
-  <meta charset="UTF-8">
-  <title>CodePen - Interactive Timeline</title>
-  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
-  <link rel="stylesheet" href="../css/global.css">
-  <link rel="stylesheet" href="../css/timeline.css">
 
-</head>
+
+
 
 <body>
+<%@ include file="./snippets/header.jsp"%>
 
-  <header>
-    <nav class="menu-nav mobile-menu">
-      <ul class="title-list">
-        <li>
-          <h1><a href="/">HOME</a></h1>
-        </li>
-        <li>
-          <h1><a href="./characters.html">Personagens</a></h1>
-        </li>
-        <li>
-          <h1><a href="./timeline.html">Timeline</a></h1>
-        </li>
-        <li>
-          <h1><a href="#ia">I.A</a></h1>
-        </li>
-        <li>
-          <h1><a href="#uml">UML</a></h1>
-        </li>
-      </ul>
-    </nav>
-  </header>
+  <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+  
+  <link rel="stylesheet" href="../css/timeline.css">
+
+
+  
 
   <section class="time-line" class="content">
     <h1 class="time-line__title">A TIMELINE</h1>
