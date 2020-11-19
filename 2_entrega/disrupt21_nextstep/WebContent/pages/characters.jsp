@@ -1,18 +1,10 @@
-<%@ include file="./snippets/imports_head.jsp"%>
-
-
-
-
-
+<%@ include file="../snippets/imports_head.jsp"%>
+<%@ include file="../snippets/header.jsp"%>
+<link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Source+Sans+Pro:400" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel="stylesheet" href="../css/characters.css">
   
 <body>
-
-<%@ include file="./snippets/header.jsp"%>
-
-
-  <link href="https://fonts.googleapis.com/css?family=Pathway+Gothic+One|Source+Sans+Pro:400" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-  <link rel="stylesheet" href="../css/characters.css">
 
   <section id="timeline" class="content">
 
@@ -33,7 +25,7 @@
 
     <div class="tl-item">
 
-      <div class="tl-bg" style="background-image: url(.././img/character_emmet-brown.jpg)"></div>
+      <div class="tl-bg" style="background-image: url(../img/character_emmet-brown.jpg)"></div>
 
       <div class="tl-year">
         <p class="f2 heading--sanSerif">Emmet</p>
@@ -56,7 +48,7 @@
 
     <div class="tl-item">
 
-      <div class="tl-bg" style="background-image: url(.././img/character_lorraine.jpg)"></div>
+      <div class="tl-bg" style="background-image: url(../img/character_lorraine.jpg)"></div>
 
       <div class="tl-year">
         <p class="f2 heading--sanSerif">Lorraine</p>
@@ -109,5 +101,8 @@
   <!-- partial -->
 
 </body>
+
+<%@ include file="../snippets/footer.jsp"%>
+
 
 </html>
