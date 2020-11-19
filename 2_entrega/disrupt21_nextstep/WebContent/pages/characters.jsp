@@ -18,17 +18,15 @@
 
     <div class="tl-item">
 
-      <div class="tl-bg" style="background-image: url(.././img/character_mc-fly.jpg)"></div>
+      <div class="tl-bg" style="background-image: url(../img/character_mc-fly.jpg)"></div>
 
       <div class="tl-year">
-        <p class="f2 heading--sanSerif">McFly</p>
+        <p class="f2 heading--sanSerif">Marty</p>
       </div>
 
       <div class="tl-content">
         <h1>Marty McFly</h1>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et
-          dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-          commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit.</p>
+        <p>Marty é um típico adolescente americano dos anos 80 que mora em um bairro de Hill Valley com usa família, porém sua amizade com Doutor Emmett Brown faz com que ele se tornasse o primeiro humano a viajar para o passado</p>
       </div>
 
     </div>
@@ -76,7 +74,7 @@
 
     <div class="tl-item">
 
-      <div class="tl-bg" style="background-image: url(.././img/character_george.jpg)"></div>
+      <div class="tl-bg" style="background-image: url(../img/character_george.jpg)"></div>
 
       <div class="tl-year">
         <p class="f2 heading--sanSerif">George</p>
@@ -84,17 +82,15 @@
 
       <div class="tl-content">
         <h1 class="f3 text--accent ttu">George McFly</h1>
-        <p>Suspendisse ac mi at dolor sodales faucibus. Nunc sagittis ornare purus non euismod. Donec vestibulum
-          efficitur tortor, eget efficitur enim facilisis consequat. Vivamus laoreet laoreet elit. Ut ut varius metus,
-          bibendum imperdiet ex. Curabitur diam quam, blandit at risus nec, pulvinar porttitor lorem. Pellentesque dolor
-          elit.</p>
+        <p>Na época do colegial, George é um jovem que tem muitas dificuldades para interagir com outras pessoas, especialmente com Lorraine, sua paixão da escola. Geroge também, por não saber confrontar outras pessoas, acaba sofrendo constante bullying de Biff. Tudo isso se reverte quando ele, sem reconhecer, recebe ajuda de seu filho vindo do futuro, que o encoraja para reagir às ameaças de Biff e tomar a iniciativa com Lorraine.
+        </p>
       </div>
 
     </div>
 
     <div class="tl-item">
 
-      <div class="tl-bg" style="background-image: url(.././img/character_biff.jpg)"></div>
+      <div class="tl-bg" style="background-image: url(../img/character_biff.jpg)"></div>
 
       <div class="tl-year">
         <p class="f2 heading--sanSerif">Biff</p>
