@@ -1,9 +1,19 @@
-<%@ include file="./snippets/imports_head.jsp"%>
-<%@ include file="./snippets/header.jsp"%>
-<link rel="stylesheet" href="./css/index.css">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <%@ include file="./snippets/imports_head.jsp"%>
+ <title>Home</title>
+ <link rel="stylesheet" type="text/css" href="css/index.css" />
+ 
+</head>
 
 <body>
 
+	<%@ include file="./snippets/header.jsp"%>
+
+  
   <section>
     <svg version="1.1" id="Back-to-the-futur" xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1080"
@@ -1075,8 +1085,7 @@
     </svg>
   </section>
 
-<%@ include file="../snippets/footer.jsp"%>
-
+<%@ include file="snippets/footer.jsp"%>
 
 </body>
 

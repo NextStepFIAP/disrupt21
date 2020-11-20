@@ -1,6 +1,7 @@
 package br.com.nextstep.controller;
 
 import java.io.IOException;
+import java.util.List;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;
@@ -8,9 +9,11 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import br.com.nextstep.beans.Personagem;
+import br.com.nextstep.bo.PersonagemBO;
 import br.com.nextstep.excecao.Excecao;
 
-@WebServlet(urlPatterns = {"/", "/home", "/personagens","/timeline", "/ia", "/uml"})
+@WebServlet(urlPatterns = {"/personagens", "/timeline"})
 public class Controller extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 
@@ -29,26 +32,32 @@ public class Controller extends HttpServlet {
 			
 			switch (request.getRequestURI()) {
 		
-				case "/disrupt21_nextstep/home":
-					response.sendRedirect("index.html");
 				case "/disrupt21_nextstep/personagens":
-					response.sendRedirect("./pages/characters.html");
+					mostraPersonagens(request, response);
 				case "/disrupt21_nextstep/timeline":
-					response.sendRedirect("./pages/timeline.html");
-				case "/disrupt21_nextstep/ia":
-					response.sendRedirect("https://colab.research.google.com/drive/1r-Ywxrq6E47mr-6QctjnBKtmPuhyuivH#scrollTo=dG0GRrmHCVm2");
-				case "/disrupt21_nextstep/uml":
-					response.sendRedirect("./pages/uml.html");
+					mostraTimeline(request, response);
 				default:
-					response.sendRedirect("index.html");
-		} 
+					request.getRequestDispatcher("./pages/index.jsp");
+				} 
 			
-
-		} catch (Exception e) {
+			} catch (Exception e) {
 			Excecao.tratarExcecao(e);
 			e.printStackTrace();
 		}
-			
 	}
+
+	private void mostraPersonagens(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		List<Personagem> listaPersonagens = PersonagemBO.mostraPersonagem();
+		request.setAttribute("listaPersonagens", listaPersonagens);
+		request.getRequestDispatcher("./pages/characters.jsp").forward(request, response);
+		
+	}
+
+	private void mostraTimeline(HttpServletRequest request, HttpServletResponse response) throws Exception {
+		List<Personagem> listaPersonagens = PersonagemBO.mostraPersonagem();
+		request.setAttribute("listaPersonagens", listaPersonagens);
+		request.getRequestDispatcher("./pages/characters.jsp").forward(request, response);
+	}
+
 
 }
