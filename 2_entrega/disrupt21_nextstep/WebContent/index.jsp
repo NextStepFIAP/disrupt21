@@ -1,14 +1,15 @@
 <%@ include file="./snippets/imports_head.jsp"%>
+<%@ include file="./snippets/header.jsp"%>
+<link rel="stylesheet" href="./css/index.css">
 
+<body>
 
   <section>
     <svg version="1.1" id="Back-to-the-futur" xmlns="http://www.w3.org/2000/svg"
       xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1080"
       style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
-
-  <%@ include file="./snippets/header.jsp"%>
-<link rel="stylesheet" href="./css/index.css">
-  
+	</svg>
+  </section>
 
 	<section>
 		<svg version="1.1" id="Back-to-the-futur" xmlns="http://www.w3.org/2000/svg"
@@ -1074,10 +1075,8 @@
     </svg>
   </section>
 
-  <footer>
-    <img src="./img/logo-disrupt21.png" alt="">
-    <h1>1TDST - NextStep - FIAP</h1>
-  </footer>
+<%@ include file="../snippets/footer.jsp"%>
+
 
 </body>
 

@@ -6,16 +6,16 @@
           <h1><a href="/">HOME</a></h1>
         </li>
         <li>
-          <h1><a href="./pages/characters.html">Personagens</a></h1>
+          <h1><a href="./pages/characters.jsp">Personagens</a></h1>
         </li>
         <li>
-          <h1><a href="./pages/timeline.html">Timeline</a></h1>
+          <h1><a href="./pages/timeline.jsp">Timeline</a></h1>
         </li>
         <li>
-          <h1><a href="#ia">I.A</a></h1>
+          <h1><a href="./pages/ia.jsp">I.A.</a></h1>
         </li>
         <li>
-          <h1><a href="#uml">UML</a></h1>
+          <h1><a href="./pages.uml.jsp">UML</a></h1>
         </li>
       </ul>
     </nav>
