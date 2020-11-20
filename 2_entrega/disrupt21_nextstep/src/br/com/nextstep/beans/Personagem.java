@@ -7,76 +7,103 @@ public class Personagem implements Serializable{
 	private static final long serialVersionUID = 1L;
 	private int id;
 	private String nome;
-	private String urlFoto;
 	private String nomeAtor;
+	private String urlFoto;
 	private String dataNascimento;
-	private String apresentacao;
+	private String apresentacaoPT;
+	private String apresentacaoEN;
 	private String classificacao;
 	
 	public Personagem() {
 		super();
 	}
-	
-	public Personagem(int id, String nome, String urlFoto, String nomeAtor, String dataNascimento, String apresentacao,
-			String classificacao) {
+
+	public Personagem(int id, String nome, String nomeAtor, String urlFoto, String dataNascimento,
+			String apresentacaoPT, String apresentacaoEN, String classificacao) {
 		super();
 		this.id = id;
 		this.nome = nome;
-		this.urlFoto = urlFoto;
 		this.nomeAtor = nomeAtor;
+		this.urlFoto = urlFoto;
 		this.dataNascimento = dataNascimento;
-		this.apresentacao = apresentacao;
+		this.apresentacaoPT = apresentacaoPT;
+		this.apresentacaoEN = apresentacaoEN;
 		this.classificacao = classificacao;
 	}
 
 	public int getId() {
 		return id;
 	}
+
 	public void setId(int id) {
 		this.id = id;
 	}
+
 	public String getNome() {
 		return nome;
 	}
+
 	public void setNome(String nome) {
 		this.nome = nome;
 	}
-	public String getUrlFoto() {
-		return urlFoto;
-	}
-	public void setUrlFoto(String urlFoto) {
-		this.urlFoto = urlFoto;
-	}
+
 	public String getNomeAtor() {
 		return nomeAtor;
 	}
+
 	public void setNomeAtor(String nomeAtor) {
 		this.nomeAtor = nomeAtor;
 	}
+
+	public String getUrlFoto() {
+		return urlFoto;
+	}
+
+	public void setUrlFoto(String urlFoto) {
+		this.urlFoto = urlFoto;
+	}
+
 	public String getDataNascimento() {
 		return dataNascimento;
 	}
+
 	public void setDataNascimento(String dataNascimento) {
 		this.dataNascimento = dataNascimento;
 	}
-	public String getApresentacao() {
-		return apresentacao;
+
+	public String getApresentacaoPT() {
+		return apresentacaoPT;
 	}
-	public void setApresentacao(String apresentacao) {
-		this.apresentacao = apresentacao;
+
+	public void setApresentacaoPT(String apresentacaoPT) {
+		this.apresentacaoPT = apresentacaoPT;
 	}
+
+	public String getApresentacaoEN() {
+		return apresentacaoEN;
+	}
+
+	public void setApresentacaoEN(String apresentacaoEN) {
+		this.apresentacaoEN = apresentacaoEN;
+	}
+
 	public String getClassificacao() {
 		return classificacao;
 	}
+
 	public void setClassificacao(String classificacao) {
 		this.classificacao = classificacao;
 	}
-	
+
+	public static long getSerialversionuid() {
+		return serialVersionUID;
+	}
+
 	@Override
 	public String toString() {
-		return "Personagem [id=" + id + ", nome=" + nome + ", urlFoto=" + urlFoto + ", nomeAtor=" + nomeAtor
-				+ ", dataNascimento=" + dataNascimento + ", apresentacao=" + apresentacao + ", classificacao="
-				+ classificacao + "]";
+		return "Personagem [id=" + id + ", nome=" + nome + ", nomeAtor=" + nomeAtor + ", urlFoto=" + urlFoto
+				+ ", dataNascimento=" + dataNascimento + ", apresentacaoPT=" + apresentacaoPT + ", apresentacaoEN="
+				+ apresentacaoEN + ", classificacao=" + classificacao + "]";
 	}
 	
 }

@@ -35,9 +35,11 @@ public class EventoDAO {
 			return new Evento(
 					rs.getInt("ID_EVENTO"),
 					rs.getString("NM_EVENTO"),
+					rs.getString("NM_EN_EVENTO"),
 					rs.getString("DT_EVENTO"),
 					rs.getString("URL_FOTO"),
-					rs.getString("DS_EVENTO")
+					rs.getString("DS_EVENTO"),
+					rs.getString("DS_EN_EVENTO")
 					);
 		}
 		
@@ -58,10 +60,11 @@ public class EventoDAO {
 					
 					rs.getInt("ID_EVENTO"),
 					rs.getString("NM_EVENTO"),
+					rs.getString("NM_EN_EVENTO"),
 					rs.getString("DT_EVENTO"),
-					rs.getString("URL_EVENTO"),
-					rs.getString("DS_EVENTO")
-	
+					rs.getString("URL_FOTO"),
+					rs.getString("DS_EVENTO"),
+					rs.getString("DS_EN_EVENTO")	
 					);
 			
 			listaEventos.add(evento);

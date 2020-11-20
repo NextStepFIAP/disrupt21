@@ -9,7 +9,9 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
+import br.com.nextstep.beans.Evento;
 import br.com.nextstep.beans.Personagem;
+import br.com.nextstep.bo.EventoBO;
 import br.com.nextstep.bo.PersonagemBO;
 import br.com.nextstep.excecao.Excecao;
 
@@ -49,14 +51,14 @@ public class Controller extends HttpServlet {
 	private void mostraPersonagens(HttpServletRequest request, HttpServletResponse response) throws Exception {
 		List<Personagem> listaPersonagens = PersonagemBO.mostraPersonagem();
 		request.setAttribute("listaPersonagens", listaPersonagens);
-		request.getRequestDispatcher("./pages/characters.jsp").forward(request, response);
-		
+		request.getRequestDispatcher("characters.jsp").forward(request, response);
 	}
 
 	private void mostraTimeline(HttpServletRequest request, HttpServletResponse response) throws Exception {
-		List<Personagem> listaPersonagens = PersonagemBO.mostraPersonagem();
-		request.setAttribute("listaPersonagens", listaPersonagens);
-		request.getRequestDispatcher("./pages/characters.jsp").forward(request, response);
+		List<Evento> listaEventos = EventoBO.mostraEvento();
+		System.out.println(listaEventos);
+		request.setAttribute("listaEventos", listaEventos);
+		request.getRequestDispatcher("timeline.jsp").forward(request, response);
 	}
 
 

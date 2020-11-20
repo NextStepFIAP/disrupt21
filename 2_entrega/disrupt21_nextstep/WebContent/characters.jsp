@@ -23,12 +23,42 @@
       <div class="tl-bg" style="background-image: url(img/character_mc-fly.jpg)"></div>
 
       <div class="tl-year">
-        <p class="f2 heading--sanSerif">Marty</p>
+        <p class="f2 heading--sanSerif">${listaPersonagens[0].getNome()}</p>
       </div>
 
       <div class="tl-content">
-        <h1>Marty McFly</h1>
-        <p>Marty é um típico adolescente americano dos anos 80 que mora em um bairro de Hill Valley com usa família, porém sua amizade com Doutor Emmett Brown faz com que ele se tornasse o primeiro humano a viajar para o passado</p>
+        <h1>${listaPersonagens[0].getNomeAtor()}</h1>
+        <p>${listaPersonagens[0].getApresentacaoPT()}</p>
+      </div>
+
+    </div>
+    
+        <div class="tl-item">
+
+      <div class="tl-bg" style="background-image: url(img/character_george.jpg)"></div>
+
+      <div class="tl-year">
+        <p class="f2 heading--sanSerif">${listaPersonagens[1].getNome()}</p>
+      </div>
+
+      <div class="tl-content">
+        <h1 class="f3 text--accent ttu">${listaPersonagens[1].getNomeAtor()}</h1>
+        <p>${listaPersonagens[1].getApresentacaoPT()}</p>
+      </div>
+
+    </div>
+    
+    <div class="tl-item">
+
+      <div class="tl-bg" style="background-image: url(img/character_lorraine.jpg)"></div>
+
+      <div class="tl-year">
+        <p class="f2 heading--sanSerif">${listaPersonagens[4].getNome()}</p>
+      </div>
+
+      <div class="tl-content">
+        <h1 class="f3 text--accent ttu">${listaPersonagens[4].getNomeAtor()}</h1>
+        <p>${listaPersonagens[4].getApresentacaoPT()}</p>
       </div>
 
     </div>
@@ -38,14 +68,12 @@
       <div class="tl-bg" style="background-image: url(img/character_emmet-brown.jpg)"></div>
 
       <div class="tl-year">
-        <p class="f2 heading--sanSerif">Emmet</p>
+        <p class="f2 heading--sanSerif">${listaPersonagens[7].getNome()}</p>
       </div>
 
       <div class="tl-content">
-        <h1 class="f3 text--accent ttu">Emmet Brown</h1>
-        <p>Suspendisse potenti. Sed sollicitudin eros lorem, eget accumsan risus dictum id. Maecenas dignissim ipsum vel
-          mi rutrum egestas. Donec mauris nibh, facilisis ut hendrerit vel, fringilla sed felis. Morbi sed nisl et arcu.
-        </p>
+        <h1 class="f3 text--accent ttu">${listaPersonagens[7].getNomeAtor()}</h1>
+        <p>${listaPersonagens[7].getApresentacaoPT()}</p>
 
         <div class="tl-content__versions">
           <a href="./timeline.html#emmet-v1">V1</a>
@@ -56,54 +84,19 @@
 
     </div>
 
-    <div class="tl-item">
-
-      <div class="tl-bg" style="background-image: url(img/character_lorraine.jpg)"></div>
-
-      <div class="tl-year">
-        <p class="f2 heading--sanSerif">Lorraine</p>
-      </div>
-
-      <div class="tl-content">
-        <h1 class="f3 text--accent ttu">Lorraine Baines McFly</h1>
-        <p>Mauris cursus magna at libero lobortis tempor. Suspendisse potenti. Aliquam interdum vulputate neque sit amet
-          varius. Maecenas ac pulvinar nisi. Fusce vitae nunc ultrices, tristique dolor at, porttitor dolor. Etiam id
-          cursus arcu, in dapibus nibh. Pellentesque non porta leo. Nulla eros odio, egestas quis efficitur vel, pretium
-          sed.</p>
-      </div>
-
-    </div>
-
-    <div class="tl-item">
-
-      <div class="tl-bg" style="background-image: url(img/character_george.jpg)"></div>
-
-      <div class="tl-year">
-        <p class="f2 heading--sanSerif">George</p>
-      </div>
-
-      <div class="tl-content">
-        <h1 class="f3 text--accent ttu">George McFly</h1>
-        <p>Na época do colegial, George é um jovem que tem muitas dificuldades para interagir com outras pessoas, especialmente com Lorraine, sua paixão da escola. Geroge também, por não saber confrontar outras pessoas, acaba sofrendo constante bullying de Biff. Tudo isso se reverte quando ele, sem reconhecer, recebe ajuda de seu filho vindo do futuro, que o encoraja para reagir às ameaças de Biff e tomar a iniciativa com Lorraine.
-        </p>
-      </div>
-
-    </div>
+    
 
     <div class="tl-item">
 
       <div class="tl-bg" style="background-image: url(img/character_biff.jpg)"></div>
 
       <div class="tl-year">
-        <p class="f2 heading--sanSerif">Biff</p>
+        <p class="f2 heading--sanSerif">${listaPersonagens[10].getNome()}</p>
       </div>
 
       <div class="tl-content">
-        <h1 class="f3 text--accent ttu">George McFly</h1>
-        <p>Suspendisse ac mi at dolor sodales faucibus. Nunc sagittis ornare purus non euismod. Donec vestibulum
-          efficitur tortor, eget efficitur enim facilisis consequat. Vivamus laoreet laoreet elit. Ut ut varius metus,
-          bibendum imperdiet ex. Curabitur diam quam, blandit at risus nec, pulvinar porttitor lorem. Pellentesque dolor
-          elit.</p>
+        <h1 class="f3 text--accent ttu">${listaPersonagens[10].getNomeAtor()}</h1>
+        <p>${listaPersonagens[10].getApresentacaoPT()}</p>
       </div>
 
     </div>

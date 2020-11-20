@@ -6,10 +6,10 @@
           <h1><a href="index.jsp">HOME</a></h1>
         </li>
         <li>
-          <h1><a href="characters.jsp">Personagens</a></h1>
+          <h1><a href="personagens">Personagens</a></h1>
         </li>
         <li>
-          <h1><a href="timeline.jsp">Timeline</a></h1>
+          <h1><a href="timeline">Timeline</a></h1>
         </li>
         <li>
           <h1><a href="ia.jsp">I.A.</a></h1>

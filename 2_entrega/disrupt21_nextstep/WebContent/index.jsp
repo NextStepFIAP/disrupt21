@@ -3,7 +3,7 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
- <%@ include file="./snippets/imports_head.jsp"%>
+ <%@ include file="snippets/imports_head.jsp"%>
  <title>Home</title>
  <link rel="stylesheet" type="text/css" href="css/index.css" />
  
@@ -11,7 +11,7 @@
 
 <body>
 
-	<%@ include file="./snippets/header.jsp"%>
+	<%@ include file="snippets/header.jsp"%>
 
   
   <section>

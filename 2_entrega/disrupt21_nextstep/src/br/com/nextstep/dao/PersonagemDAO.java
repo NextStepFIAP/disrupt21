@@ -39,6 +39,7 @@ public class PersonagemDAO {
 					rs.getString("URL_FOTO"),
 					rs.getString("DT_NASCIMENTO"),
 					rs.getString("DS_APRESENTACAO"),
+					rs.getString("DS_EN_APRESENTACAO"),
 					rs.getString("NM_CLASSIFICACAO")
 					);
 		}
@@ -48,12 +49,11 @@ public class PersonagemDAO {
 	
 	public List<Personagem> getAll() throws Exception {
 
-		stmt = con.prepareStatement("SELECT * FROM T_NXT_Personagem");
+		stmt = con.prepareStatement("SELECT * FROM T_NXT_PERSONAGEM");
 	
 		rs = stmt.executeQuery();
 		
 		List<Personagem> listaPersonagens = new ArrayList<Personagem>();
-		
 		while(rs.next()) {
 			
 			Personagem Personagem = new Personagem(
@@ -62,8 +62,9 @@ public class PersonagemDAO {
 					rs.getString("NM_PERSONAGEM"),
 					rs.getString("NM_ATOR"),
 					rs.getString("URL_FOTO"),
-					rs.getString("DT_NASCIMENTO"),
+					rs.getNString("DT_NASCIMENTO"),
 					rs.getString("DS_APRESENTACAO"),
+					rs.getString("DS_EN_APRESENTACAO"),
 					rs.getString("NM_CLASSIFICACAO")
 					);
 			
