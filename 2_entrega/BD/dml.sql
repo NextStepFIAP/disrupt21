@@ -1,6 +1,7 @@
 --PERSONAGENS
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao) 
-VALUES (sq_nxt_personagem.NEXTVAL, 'Marty McFly', 'Michael J. Fox', 'url', TO_DATE('1964-12-06', 'YYYY-MM-DD'), 'Marty é um típico adolescente 
+VALUES (sq_nxt_personagem.NEXTVAL, 'Marty McFly', 'Michael J. Fox', 
+'https://drive.google.com/file/d/1v2nNioZGgFqnc31I6vijtp3oXuD_Xi-G/view?usp=sharing', TO_DATE('1964-12-06', 'YYYY-MM-DD'), 'Marty é um típico adolescente 
 americano dos anos 80 que mora em um bairro de Hill Valley com sua família, porém sua amizade com Doutor Emmett Brown faz com que ele se torne 
 o primeiro humano a viajar para o passado.', 
 'Marty is a typical ’80s American teenager who lives in a Hill Valley neighborhood with his family, but his friendship with Doctor Emmett Brown 
@@ -15,10 +16,12 @@ doe not feel comfortable in situations where he must confront someone, which mak
 'Secundário');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao)
-VALUES (sq_nxt_personagem.NEXTVAL, 'George McFly', 'Crispin Glover', 'url', TO_DATE('1938-04-01', 'YYYY-MM-DD'), 'Na época do colegial, George
-era um jovem que tem muitas dificuldades para interagir com outras pessoas, especialmente com Lorraine, sua paixão da escola. George além disso, 
-por não saber confrontar outras pessoas, acaba sofrendo constante bullying de Biff. Tudo isso se reverte quando ele, sem reconhecer, recebe 
-ajuda de seu filho vindo do futuro, que o encoraja a reagir às ameaças de Biff e tomar iniciativa com Lorraine.', 
+VALUES (sq_nxt_personagem.NEXTVAL, 'George McFly', 'Crispin Glover', 
+'https://drive.google.com/file/d/1HoY3HjMGSuJQ5bQ4GLkgiqEfC3JGGO6m/view?usp=sharing', TO_DATE('1938-04-01', 'YYYY-MM-DD'), 
+'Na época do colegial, Georgeera um jovem que tem muitas dificuldades para interagir com outras pessoas, especialmente com Lorraine, 
+sua paixão da escola. George além disso, por não saber confrontar outras pessoas, acaba sofrendo constante bullying de Biff. Tudo isso se 
+reverte quando ele, sem reconhecer, recebe ajuda de seu filho vindo do futuro, que o encoraja a reagir às ameaças de Biff e tomar iniciativa 
+com Lorraine.', 
 'Back in high school, George was a young man who has a hard time interacting with other people, especially with Lorraine, his school crush. 
 George, moreover, for not knowing how to confront other people, ends up being constantly bullied by Biff. All of this is reversed when he, 
 without acknowledging, receives help from his son from the future, who encourages him to react to Biffs threats and take initiative with 
@@ -42,7 +45,8 @@ As time goes by, Lorraine becomes depressed and can not stand the fact that Geor
 situation.', 'Secundário');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao) 
-VALUES (sq_nxt_personagem.NEXTVAL, 'Lorraine Baines McFly', 'Lea Thompson', 'url', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 'Lorraine é uma aluna 
+VALUES (sq_nxt_personagem.NEXTVAL, 'Lorraine Baines McFly', 'Lea Thompson', 
+'https://drive.google.com/file/d/14HM6kKVfBgTwDMyyn8Tym7HSnp5ndXcX/view?usp=sharing', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 'Lorraine é uma aluna 
 da Hill Valley High School que se mostra totalmente o oposto do padrão que ela prega para seus filhos seguirem e que, por conta da intervenção 
 de Marty, acaba se apaixonando pelo seu próprio filho vindo do futuro.', 
 'Lorraine is a student at Hill Valley High School who is quite the opposite of the standard she preaches for her children to follow and who, 
@@ -56,9 +60,11 @@ George como um homem que ela sempre desejou.',
 and sees George as a man she has always wanted.', 'Secundário');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao)
-VALUES (sq_nxt_personagem.NEXTVAL, 'Emmett Brown', 'Christopher Lloyd', 'url', TO_DATE('1908-01-01', 'YYYY-MM-DD'), 'Doutor Emmett Brown é um 
-cientista que mora em Hill Valley e sempre está em busca de novas invenções e constantemente as colocando em testes. O Doutor também é grande 
-amigo de Marty, que sempre o acompanha em suas experiências, a principal delas sendo a máquina do tempo feita a partir de um DeLorean.', 
+VALUES (sq_nxt_personagem.NEXTVAL, 'Emmett Brown', 'Christopher Lloyd', 
+'https://drive.google.com/file/d/16G-yRMQF3u5Q7LRqbinzNuQ9R-Gx72JY/view?usp=sharing', TO_DATE('1908-01-01', 'YYYY-MM-DD'), 
+'Doutor Emmett Brown é um cientista que mora em Hill Valley e sempre está em busca de novas invenções e constantemente as 
+colocando em testes. O Doutor também é grande amigo de Marty, que sempre o acompanha em suas experiências, a principal delas sendo a máquina 
+do tempo feita a partir de um DeLorean.', 
 'Doctor Emmett Brown is a scientist who lives in Hill Valley and is always looking for new inventions and constantly testing them. 
 The Doctor is also a good friend of Marty, who always accompanies him in his experiences, the main one being the time machine made from a 
 DeLorean.', 'Coadjuvante');
@@ -78,9 +84,10 @@ casado com a paixão da adolescência de Biff.',
 because of the fact that he is married to Biffs teenage crush.', 'Antagonista');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao)
-VALUES (sq_nxt_personagem.NEXTVAL, 'Biff Tannen', 'Tom Wilson', 'url', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 'Desde sua adolescência, Biff 
-mostra-se como um típico valentão do colegial com forte personalidade, e que sempre busca tirar vantagem das pessoas por meio de chantagens e 
-intimidações.', 
+VALUES (sq_nxt_personagem.NEXTVAL, 'Biff Tannen', 'Tom Wilson', 
+'https://drive.google.com/file/d/1pV8qlb8-x4jVI3BENmCk3lJMaIF7s8Vm/view?usp=sharing', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 
+'Desde sua adolescência, Biff mostra-se como um típico valentão do colegial com forte personalidade, e que sempre busca tirar vantagem das 
+pessoas por meio de chantagens e intimidações.', 
 'Since his adolescence, Biff has shown himself as a typical high school bully with a strong personality, and who always seeks to take 
 advantage of people through blackmail and intimidation.', 'Antagonista');
 
@@ -91,14 +98,16 @@ nos eventos do passado, Biff agora trabalha na casa dos McFly e é um subordinado
 
 --EVENTO
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'Carro Quebrado', 'Wrecked Car', TO_DATE('1985-10-25', 'YYYY-MM-DD'), 'url', 'Marty chega em sua casa e percebe 
+VALUES(sq_nxt_evento.NEXTVAL, 'Carro Quebrado', 'Wrecked Car', TO_DATE('1985-10-25', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/1lmoMyv-BReYhTZ_9zoOq85saCt2tr0yE/view?usp=sharing', 'Marty chega em sua casa e percebe 
 que Biff destruiu completamente o carro que ele iria usar. Biff, o chefe de George, não teve nenhum cuidado com o carro emprestado e ainda 
 presume que McFly pagará pelo conserto.', 
 'Marty arrives at his house and realizes that Biff completely destroyed the car he was going to use. George’s boss, 
 Biff, was not careful with the borrowed car and still assumes that McFly will pay for the repair.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'Libaneses', 'Libyans', TO_DATE('1985-10-26', 'YYYY-MM-DD'), 'url', 'Para o funcionamento da máquina do tempo, 
+VALUES(sq_nxt_evento.NEXTVAL, 'Libaneses', 'Libyans', TO_DATE('1985-10-26', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/114G-ZL0wOeYR9KzNv93nmmMdMoQtH7nB/view?usp=sharing', 'Para o funcionamento da máquina do tempo, 
 Emmett precisa de plutônio para gerar 1.21 Gigawatts. Para conseguir este elemento o doutor acaba enganando um grupo de libaneses 
 que desejavam que ele criasse uma bomba nuclear, sendo assim ele rouba o plutônio e dá a eles uma bomba feita com partes de pinball usadas. 
 Após isso, um grupo de libaneses aparecem no estacionamento para se vingarem.', 
@@ -107,14 +116,16 @@ deceiving a group of Lebanese who wanted him to create a nuclear bomb, so he ste
 pinball parts. After that, a group of Lebanese appear in the parking lot to take revenge.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'Viagem no Tempo', 'Time Travel', TO_DATE('1985-10-26', 'YYYY-MM-DD'), 'url', 'Marty deve fugir dos libaneses, 
+VALUES(sq_nxt_evento.NEXTVAL, 'Viagem no Tempo', 'Time Travel', TO_DATE('1985-10-26', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/1G-Fn7yCnRPrIio0oKbff__WpD8Fhj4fb/view?usp=sharing', 'Marty deve fugir dos libaneses, 
 para isso ele liga o DeLorean e tenta despistá-los. Sem prestar atenção na velocidade, Marty acaba atingindo as 88 mph, o que faz a máquina 
 do tempo ser ativada, levando ele para 1955.', 
 'Marty must run away from the Lebanese, for that he starts the DeLorean and tries to lose them. Without paying attention to speed, Marty 
 ends up reaching 88 mph, which makes the time machine to activate, taking him to 1955.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'Você é George McFly!', 'You are George McFly!', TO_DATE('1955-11-05', 'YYYY-MM-DD'), 'url', 'Depois de esconder o 
+VALUES(sq_nxt_evento.NEXTVAL, 'Você é George McFly!', 'You are George McFly!', TO_DATE('1955-11-05', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/1ZqRDwrNhdApfzywH7LIsaWgsxEtLrj_d/view?usp=sharing', 'Depois de esconder o 
 DeLorean, Marty precisa encontrar o Doutor, desse modo ele entra em uma lanchonete para adquirir mais informações e acaba encontrando, além de 
 seu pai, o Biff, onde ele percebe que o bullying sofrido por seu pai vem desde a adolescência. Após George sair do local, seu filho começa a 
 seguí-lo.', 
@@ -123,7 +134,8 @@ to his father, Biff, where he realizes that the bullying suffered by his father 
 follow him.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'Lorraine Baines', 'Lorraine Baines', TO_DATE('1955-11-05', 'YYYY-MM-DD'), 'url', 'Após seguir George, 
+VALUES(sq_nxt_evento.NEXTVAL, 'Lorraine Baines', 'Lorraine Baines', TO_DATE('1955-11-05', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/1ze3NCo4bqSfVj4hg4s_QdpL0hJtDDNML/view?usp=sharing', 'Após seguir George, 
 Marty está cara a cara com o acidente que foi decisivo para seus pais se aproximarem, acidente este em que o pai de Lorraine atropela 
 George. Porém, sem perceber que ele estava vivenciando a história que sua mãe sempre contava, Marty salvou seu pai momentos antes do carro 
 atropelá-lo, fazendo com que Marty tomasse o lugar de George na história de como seus pais se conheceram se alterasse para sempre.', 
@@ -132,12 +144,14 @@ Lorraine’s father runs over George. However, without realizing that he was exper
 father moments before the car hit him, causing Marty to take George’s place in the story of how his parents met changed forever.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'Eu Sou do Futuro', 'I am From The Future', TO_DATE('1955-11-05', 'YYYY-MM-DD'), 'url', 'Para conseguir ir de 
+VALUES(sq_nxt_evento.NEXTVAL, 'Eu Sou do Futuro', 'I am From The Future', TO_DATE('1955-11-05', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/17lsCADH02rGMrUFwkHO0qABwrGMeaBou/view?usp=sharing', 'Para conseguir ir de 
 volta para o futuro, Marty vai à casa do Doutor mas encontra dificuldades para fazer ele acreditar em sua história.', 
 'To be able to go back to the future, Marty goes to the Doctor ’s house but finds it difficult to make him believe his story.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'Apagado da Existência', 'Erased From Existance', TO_DATE('1955-11-05', 'YYYY-MM-DD'), 'url', 'Após Emmett 
+VALUES(sq_nxt_evento.NEXTVAL, 'Apagado da Existência', 'Erased From Existance', TO_DATE('1955-11-05', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/1lRKLqmT6aULxLVS7aC2rcCntgV--lAoV/view?usp=sharing', 'Após Emmett 
 perceber que Marty se encontrou com seus pais, o Doutor pede para ele mostrar a foto dos seus irmãos e acaba percebendo que seu irmão mais 
 velho está desaparecendo da imagem, isso se deve ao fato das ações de Marty estarem alterando a realidade.', 
 'After Emmett realizes that Marty has met with his parents, the Doctor asks him to show the photo of his brothers and ends up realizing that 
@@ -145,20 +159,21 @@ his older brother is disappearing from the image, this is due to the fact that M
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
 VALUES(sq_nxt_evento.NEXTVAL, 'O Que os Adolescentes Fazem Nos Anos 50?','What are The Kids Doing in The 50s?',TO_DATE('1955-11-06', 'YYYY-MM-DD'), 
-'url', 'Ao perceber que estava mudando o futuro completamente, Marty tenta incentivar George para levar Lorraine ao baile que, originalmente, 
-fez com que eles a se apaixonassem.', 
+'https://drive.google.com/file/d/1AkT7_mj0EKWNKUZsSHFcAfDNkIrTqlFb/view?usp=sharing', 'Ao perceber que estava mudando o futuro completamente, 
+Marty tenta incentivar George para levar Lorraine ao baile que, originalmente, fez com que eles a se apaixonassem.', 
 'Realizing he was changing the future completely, Marty tries to encourage George to take Lorraine to the ball that originally made them fall 
 in love.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
 VALUES(sq_nxt_evento.NEXTVAL, 'O Plano Para Ir de Volta Para o Futuro', 'The Plan to Go Back to The Future', TO_DATE('1955-11-12', 'YYYY-MM-DD'), 
-'url', 'Para enviar Marty de volta para o futuro sem o plutônio, o Doutor elabora um plano que o DeLorean receberá a energia de ativação por 
-meio de um grande raio que cairá na torre da cidade.', 
+'https://drive.google.com/file/d/1lO469fbhqkAXwQK57YMOFzWqBQLi7mCC/view?usp=sharing', 'Para enviar Marty de volta para o futuro sem o 
+plutônio, o Doutor elabora um plano que o DeLorean receberá a energia de ativação por meio de um grande raio que cairá na torre da cidade.', 
 'To send Marty back to the future without plutonium, the Doctor draws up a plan that the DeLorean will receive activation energy through a 
 large lightning bolt that will fall on the city tower.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'Não abra até 1985', 'Do not open until 1985', TO_DATE('1955-11-12', 'YYYY-MM-DD'), 'url', 'Para reverter a morte 
+VALUES(sq_nxt_evento.NEXTVAL, 'Não abra até 1985', 'Do not open until 1985', TO_DATE('1955-11-12', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/1JkoHMi6JmmsI2EWxA9doLQLK5Qd4lON3/view?usp=sharing', 'Para reverter a morte 
 de Emmett Brown pelos libaneses, Marty queria contar para o Doutor sobre o incidente que houve no dia em que ele viajou no tempo, porém como 
 Emmett não deixa ele contar, Marty o escreve uma carta para que ele abra apenas no ano do incidente pedindo para que, na noite em que ele 
 sofresse este ataque, o Doutor tomasse todas as precauções necessárias.', 
@@ -167,7 +182,8 @@ in time, but as Emmett doesn’t let him tell, Marty writes him a letter to open o
 suffered this attack, the Doctor would take all necessary precautions.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'Aquele é George McFly', 'That is George McFly', TO_DATE('1955-11-12', 'YYYY-MM-DD'), 'url', 'Ao perceber que 
+VALUES(sq_nxt_evento.NEXTVAL, 'Aquele é George McFly', 'That is George McFly', TO_DATE('1955-11-12', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/1kqgQ3yzIuCMiz3Bhs-D54n4VcNt7M0wg/view?usp=sharing', 'Ao perceber que 
 Lorraine estava em um carro no estacionamento e não estava confortável naquela situação, George abre a porta para expulsar a pessoa que está 
 se aproveitando dela mas ele não sabia que era Biff. Ao confroná-lo e conseguir nocauteá-lo, George adquire a confiança para levar Lorraine à 
 dança e ir, aos poucos, reescrevendo a história que deu origem à Marty, Linda e Dave, porém este novo jeito de se contar esta história pode 
@@ -178,26 +194,30 @@ confidence to take Lorraine to the dance and gradually rewrite the story that ga
 this story may have caused drastic changes in the future.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'Earth Angel', 'Earth Angel', TO_DATE('1955-11-12', 'YYYY-MM-DD'), 'url', 'Após a iniciativa de George, 
+VALUES(sq_nxt_evento.NEXTVAL, 'Earth Angel', 'Earth Angel', TO_DATE('1955-11-12', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/1GmBtCwR_WEF8ypPUN7G9rz2-X1e01t4a/view?usp=sharing', 'Após a iniciativa de George, 
 Lorraine aceita a acompaná-lo na dança e é neste momento que começam a se apaixonar. Marty olha para sua fotografia e percebe que todos os 
 seus irmãos estão de volta ao normal.', 
 'After George’s initiative, Lorraine accepts to accompany him to the dance and it is at this moment that they begin to fall in love. 
 Marty looks at her photo and realizes that all her brothers are back to normal.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'De Volta Para o Futuro', 'Back to The Future', TO_DATE('1955-11-12', 'YYYY-MM-DD'), 'url', 'Após o sucesso do 
+VALUES(sq_nxt_evento.NEXTVAL, 'De Volta Para o Futuro', 'Back to The Future', TO_DATE('1955-11-12', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/1Q6NNxOF7B_SLxVsZXsbAMEj55HxZ0GTf/view?usp=sharing', 'Após o sucesso do 
 plano idealizado pelo Doutor, Marty consegue ir de volta para o futuro.', 
 'After the success of the plan devised by Doctor, Marty manages to go back to the future.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'Como Você Sabia?', 'How Did You Know?', TO_DATE('1985-10-26', 'YYYY-MM-DD'), 'url', 'Quando Marty percebe que o 
+VALUES(sq_nxt_evento.NEXTVAL, 'Como Você Sabia?', 'How Did You Know?', TO_DATE('1985-10-26', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/1MSMOEUp6Ou2MZYXydqZbLwQJnPpD4YPy/view?usp=sharing', 'Quando Marty percebe que o 
 Doutor não morreu e que estava usando um colete a prova de balas, conforme sua carta, ele descobre que o Doutor de fato guardou aquelas 
 instruções escritas por Marty em 1955.', 
 'When Marty realizes that the Doctor did not die and that he was wearing a bulletproof vest, according to his letter, he 
 discovers that the Doctor did in fact keep those instructions written by Marty in 1955.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
-VALUES(sq_nxt_evento.NEXTVAL, 'Aqui Estão Suas Cahves', 'Here is Your Keys', TO_DATE('1985-10-26', 'YYYY-MM-DD'), 'url', 'Em decorrência de 
+VALUES(sq_nxt_evento.NEXTVAL, 'Aqui Estão Suas Cahves', 'Here is Your Keys', TO_DATE('1985-10-26', 'YYYY-MM-DD'), 
+'https://drive.google.com/file/d/1sndCMmYfYAeHoFlCPZfxnxTSwi5uwQWk/view?usp=sharing', 'Em decorrência de 
 todas as alterações no passado, Marty agora vive em uma bela casa com o carro dos seus sonhos. George, que era funcionário de Biff, agora o 
 tem como seu próprio empregado. Marty fez com que nada se alterasse em relação à sua família, mas a influência que ele passou para seu pai 
 fez com que George elevasse altamente o padrão de vida dos McFly. E o carro que Marty iria usar agora se tornou a caminhonete dos seus sonhos!', 
@@ -285,8 +305,5 @@ INSERT INTO t_nxt_personagem_evento(id_personagem, id_evento, ds_evento_personag
 VALUES(4, 15, 'George agora comanda Biff, muito em função dos acontecimentos do passado influenciados pelo Marty');--George Novo 1985
 INSERT INTO t_nxt_personagem_evento(id_personagem, id_evento, ds_evento_personagem)
 VALUES(12, 15, 'Biff, agora como empregado de George, está lavando o carro do McFly');--Biff Novo 1985
-
-
-
 
 COMMIT;
