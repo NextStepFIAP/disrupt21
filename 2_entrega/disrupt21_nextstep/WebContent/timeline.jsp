@@ -1,9 +1,18 @@
-<%@ include file="../snippets/imports_head.jsp"%>
-<%@ include file="../snippets/header.jsp"%>
-<link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
-<link rel="stylesheet" href="../css/timeline.css">
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+	pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+ <%@ include file="snippets/imports_head.jsp"%>
+ <title>Timeline</title>
+ <link href="https://fonts.googleapis.com/css?family=Oswald:400,700" rel="stylesheet">
+ <link rel="stylesheet" href="css/timeline.css">
+ 
+</head>
 
 <body>
+
+	<%@ include file="snippets/header.jsp"%>
 
   <section class="time-line" class="content">
     <h1 class="time-line__title">A TIMELINE</h1>
@@ -96,11 +105,11 @@
     </div>
   </section>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-  <script src="../js/timeline.js"></script>
+  <script src="js/timeline.js"></script>
 
 </body>
 
-<%@ include file="../snippets/footer.jsp"%>
+<%@ include file="snippets/footer.jsp"%>
 
 
 </html>
