@@ -8,9 +8,11 @@ o primeiro humano a viajar para o passado.',
 makes him the first human to travel to the past.', 'Protagonista');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao) 
-VALUES (sq_nxt_personagem.NEXTVAL, 'George McFly', 'Crispin Glover', 'url', TO_DATE('1938-04-01', 'YYYY-MM-DD'), 'George McFly, pai de três 
-filhos (Dave, Linda e Marty), casou-se com Lorraine em 7 de Dezembro de 1958. George ainda é o mesmo garoto do colegial que não se sente 
-confortável em situações onde ele deve confrontar alguém, o que o faz ser um funcionário de seu bully da época de escola, Biff.', 
+VALUES (sq_nxt_personagem.NEXTVAL, 'George McFly', 'Crispin Glover', 
+'https://drive.google.com/file/d/1dl7IWr5lFU3KGj3KAYKvHHfwiOop5QUl/view?usp=sharing', TO_DATE('1938-04-01', 'YYYY-MM-DD'), 
+'George McFly, pai de três filhos (Dave, Linda e Marty), casou-se com Lorraine em 7 de Dezembro de 1958. George ainda é o mesmo garoto do 
+colegial que não se sente confortável em situações onde ele deve confrontar alguém, o que o faz ser um funcionário de seu bully da época de 
+escola, Biff.', 
 'McFly, father of three children (Dave, Linda and Marty), married Lorraine on December 7, 1958. George is still the same high school boy who 
 doe not feel comfortable in situations where he must confront someone, which makes him an employee of your high school bully, Biff.', 
 'Secundário');
@@ -28,7 +30,8 @@ without acknowledging, receives help from his son from the future, who encourage
 Lorraine.', 'Secundário');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao)
-VALUES (sq_nxt_personagem.NEXTVAL, 'George McFly', 'Crispin Glover', 'url', TO_DATE('1938-04-01', 'YYYY-MM-DD'), 'Após ter vencido o 
+VALUES (sq_nxt_personagem.NEXTVAL, 'George McFly', 'Crispin Glover', 
+'https://drive.google.com/file/d/1Ryb5Kmq-EKD-NpDrlXpZaLPaggJyqR0e/view?usp=sharing', TO_DATE('1938-04-01', 'YYYY-MM-DD'), 'Após ter vencido o 
 conflito que tinha com Biff, George tornou-se mais confiante e todos ao seu redor passaram a respeitá-lo, o que o fez publicar suas 
 histórias e tornar-se um escritor bem-sucedido. Agora McFly vive em uma bela casa em um bairro nobre da cidade de Hill Valley, e até 
 garantiu ao Biff um emprego como seu empregado.', 
@@ -37,7 +40,8 @@ publish his stories and become a successful writer. Now McFly lives in a beautif
 and has even secured Biff a job as his man-servant.', 'Secundário');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao) 
-VALUES (sq_nxt_personagem.NEXTVAL, 'Lorraine Baines McFly', 'Lea Thompson', 'url', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 'Lorraine Baines é mãe 
+VALUES (sq_nxt_personagem.NEXTVAL, 'Lorraine Baines McFly', 'Lea Thompson', 
+'https://drive.google.com/file/d/17aH2FeXyjPwEGlBkWvYOCHBejd2CnV7t/view?usp=sharing', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 'Lorraine Baines é mãe 
 de três filhos e casada com George McFly. Ela o conheceu qunado seu pai o atropelou e o levou para sua casa. Com o passar do tempo, Lorraine 
 torna-se depressiva e não aguenta o fato de George não conseguir tomar a iniciativa nem para defendê-la em nenhuma situação.', 
 'Lorraine Baines is a mother of three and married to George McFly. She met him when his father ran him over and then took him to her home. 
@@ -53,7 +57,8 @@ de Marty, acaba se apaixonando pelo seu próprio filho vindo do futuro.',
 due to Marty’s intervention, ends up falling in love with her own son from the future.', 'Secundário');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao) 
-VALUES (sq_nxt_personagem.NEXTVAL, 'Lorraine Baines McFly', 'Lea Thompson', 'url', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 'Com uma realidade 
+VALUES (sq_nxt_personagem.NEXTVAL, 'Lorraine Baines McFly', 'Lea Thompson', 
+'https://drive.google.com/file/d/1N57EmYWcKGUXDZk8wlHvNonNxF207C8j/view?usp=sharing', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 'Com uma realidade 
 completamente diferente do ínicio desta história, Lorraine agora aparenta estar muito mais saudável e feliz com o seu casamento e enxerga 
 George como um homem que ela sempre desejou.', 
 'With a completely different reality from the beginning of this story, Lorraine now appears to be much healthier and happier with her marriage 
@@ -70,16 +75,18 @@ The Doctor is also a good friend of Marty, who always accompanies him in his exp
 DeLorean.', 'Coadjuvante');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao) 
-VALUES (sq_nxt_personagem.NEXTVAL, 'Emmett Brown', 'Christopher Lloyd', 'url', TO_DATE('1908-01-01', 'YYYY-MM-DD'), 'Doutor Emmett Brown é um 
+VALUES (sq_nxt_personagem.NEXTVAL, 'Emmett Brown', 'Christopher Lloyd', 
+'https://drive.google.com/file/d/1T4kSvYgBEEdMzXLiCDXRMl3V-tuiio0A/view?usp=sharing', TO_DATE('1908-01-01', 'YYYY-MM-DD'), 'Doutor Emmett Brown é um 
 cientista na década de 1950. Sua sede por descobertas o faz ficar dia e noite estudando sobre a possibilidade de inventar uma máquina capaz de 
 viajar pelo tempo.', 
 'Doctor Emmett Brown is a scientist in the 1950s. His thirst for discoveries makes him spend day and night studying the possibility of 
 inventing a machine capable of traveling through time.', 'Coadjuvante');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao) 
-VALUES (sq_nxt_personagem.NEXTVAL, 'Biff Tannen', 'Tom Wilson', 'url', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 'Biff é um empresário e, assim 
-como nos tempos do colegial, ameaça seus funcionários e os pedem para fazer seu serviço, em especial George McFly muito pelo fato dele ser 
-casado com a paixão da adolescência de Biff.', 
+VALUES (sq_nxt_personagem.NEXTVAL, 'Biff Tannen', 'Tom Wilson', 
+'https://drive.google.com/file/d/1vhJgEKaBmDXWuxi9X5-vcF26CmHL4VrB/view?usp=sharing', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 
+'Biff é um empresário e, assim como nos tempos do colegial, ameaça seus funcionários e os pedem para fazer seu serviço, em especial George 
+McFly muito pelo fato dele ser casado com a paixão da adolescência de Biff.', 
 'Biff is a businessman and, just like in high school, he threatens his employees and asks them to do his job, especially George McFly 
 because of the fact that he is married to Biffs teenage crush.', 'Antagonista');
 
@@ -92,8 +99,9 @@ pessoas por meio de chantagens e intimidações.',
 advantage of people through blackmail and intimidation.', 'Antagonista');
 
 INSERT INTO t_nxt_personagem (id_personagem, nm_personagem, nm_ator, url_foto, dt_nascimento, ds_apresentacao, ds_en_apresentacao, nm_classificacao)
-VALUES (sq_nxt_personagem.NEXTVAL, 'Biff Tannen', 'Tom Wilson', 'url', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 'Com toda a influência de Marty 
-nos eventos do passado, Biff agora trabalha na casa dos McFly e é um subordinado de George.', 
+VALUES (sq_nxt_personagem.NEXTVAL, 'Biff Tannen', 'Tom Wilson', 
+'https://drive.google.com/file/d/11dS6DusUD6G1J-G8iZOjkekx2w1vMFje/view?usp=sharing', TO_DATE('1938-01-01', 'YYYY-MM-DD'), 
+'Com toda a influência de Marty nos eventos do passado, Biff agora trabalha na casa dos McFly e é um subordinado de George.', 
 'With all of Martys influence on past’s events, Biff now works at the McFly home and is a subordinate to George.', 'Antagonista');
 
 --EVENTO
