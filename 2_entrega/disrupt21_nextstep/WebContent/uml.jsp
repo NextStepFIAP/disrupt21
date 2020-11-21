@@ -13,7 +13,7 @@
 	
 	<section class="content">
 		<div class="diagrama">
-			<h2>Confira nosso diagrama!</h2>
+			<h2><f:message key="uml"/></h2>
 			<img src="./img/diagrama_classe.png">
 		</div>
 	

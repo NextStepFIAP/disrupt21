@@ -5,7 +5,7 @@
 <head>
  <%@ include file="snippets/imports_head.jsp"%>
  
- <title>Home</title>
+ <title><f:message key="site.titulo" /></title>
  <link rel="stylesheet" type="text/css" href="css/index.css" />
 </head>
 
