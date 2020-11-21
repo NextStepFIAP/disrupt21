@@ -60,7 +60,8 @@ body {
 }
 
 .tl-item:hover {
-  width: 30% !important;
+  width: 50% !important;
+  transition: 0.5s;
 }
 
 .tl-item:hover:after {
@@ -97,7 +98,7 @@ body {
   z-index: 1;
   text-align: center;
   margin: 0 1.618em;
-  top: 55%;
+  top: 35%;
   opacity: 0;
 }
 
@@ -114,6 +115,7 @@ body {
 	max-height: 0;
 	visibility: hidden;
 	transition: opacity 2s, visibility 0.01s, max-height 0.01s;
+	font-size: 12px;
 }
 
 
@@ -135,6 +137,7 @@ body {
 	padding: 3px;
 	margin: 0 3px;
 	cursor:pointer;
+	border:none;
 }
 
 .tl-buttons .versions button.active{
@@ -163,7 +166,7 @@ body {
 
 .tl-year {
   position: absolute;
-  top: 50%;
+  top: 30%;
   left: 50%;
   -webkit-transform: translateX(-50%) translateY(-50%);
   transform: translateX(-50%) translateY(-50%);
@@ -195,4 +198,22 @@ body {
   transition: filter 0.5s ease, -webkit-filter 0.5s ease;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
+}
+
+@media (max-width:768px){
+	#timeline{
+    	flex-direction: column;
+	}
+	
+	#timeline:hover .tl-item {
+  		width: 100%;
+	}
+	
+	.tl-item{
+		width:100%;
+	}
+	
+	.tl-item:hover{
+		width:100% !important;
+	}
 }

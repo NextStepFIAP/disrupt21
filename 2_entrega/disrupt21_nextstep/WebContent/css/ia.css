@@ -40,7 +40,7 @@ footer{
 	margin-left: 0;
 }
 
-@media (max-width:778px){
+@media (max-width:768px){
 	.cta{
 		width: 100%;
 	}
