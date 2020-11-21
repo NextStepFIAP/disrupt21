@@ -25,15 +25,15 @@ $(window).on("load", function() {
   console.log(hash)
 
   if(hash){
-	$("[data-target='[" + hash + "]']").addClass("active");
     setTimeout(function(){
-    	$("[data-target='" + hash + "']").click();
+    	$("."+hash).addClass("active");
+    	$("."+hash).click();
     },50)
   }
   
   else if(!hash.length){
-	$("[data-target='mcfly-v1'").addClass("active")
     setTimeout(function(){
+    	$(".date:first-of-type").addClass("active")
     	$(".date:first-of-type").click()
       },50)
   }

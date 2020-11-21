@@ -23,7 +23,7 @@
       
        <!-- 1955 -->
       
-        <div class="date" data-target='["george-v2", "lorraine-v2", "biff-v2"]'>
+        <div class="date george-v2 lorraine-v2 biff-v2">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[0].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
@@ -35,7 +35,7 @@
           </div>
         </div>
         
-        <div class="date" data-target="emmet-v2">
+        <div class="date emmet-v2">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[1].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
@@ -59,7 +59,7 @@
           </div>
         </div>
         
-        <div class="date" data-target='["george-v1", "biff-v1"]'>
+        <div class="date george-v1 biff-v1">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[3].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
@@ -71,7 +71,7 @@
           </div>
         </div>
        
-        <div class="date" data-target="lorraine-v1">
+        <div class="date lorraine-v1">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[4].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
@@ -107,7 +107,7 @@
           </div>
         </div>
         
-        <div class="date" data-target="emmet-v1">
+        <div class="date emmet-v1">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[7].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
@@ -193,7 +193,7 @@
           </div>
         </div>
         
-        <div class="date" data-target='["george-v3", "lorraine-v3", "biff-v3"]'>
+        <div class="date george-v3 lorraine-v3 biff-v3">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[14].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
