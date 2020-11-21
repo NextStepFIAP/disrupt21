@@ -181,7 +181,7 @@ large lightning bolt that will fall on the city tower.');
 
 INSERT INTO t_nxt_evento(id_evento, nm_evento, nm_en_evento, dt_evento, url_foto, ds_evento, ds_en_evento) 
 VALUES(sq_nxt_evento.NEXTVAL, 'Não abra até 1985', 'Do not open until 1985', TO_DATE('1955-11-12', 'YYYY-MM-DD'), 
-'https://i.pinimg.com/originals/26/07/fb/2607fbe5a2f9a51a3b71b12f4937fbf5.jpg', 'Para reverter a morte 
+'https://i.pinimg.com/originals/ef/f6/d5/eff6d5221d5a9033bc6dd808ceee55a0.jpg', 'Para reverter a morte 
 de Emmett Brown pelos libaneses, Marty queria contar para o Doutor sobre o incidente que houve no dia em que ele viajou no tempo, porém como 
 Emmett não deixa ele contar, Marty o escreve uma carta para que ele abra apenas no ano do incidente pedindo para que, na noite em que ele 
 sofresse este ataque, o Doutor tomasse todas as precauções necessárias.', 
