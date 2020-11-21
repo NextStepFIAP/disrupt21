@@ -1,4 +1,4 @@
  <footer>
-   <img src="./img/logo-disrupt21.png" alt="">
-   <h1>1TDST - NextStep - FIAP</h1>
+ 	<a href="https://www.fiap.com.br/graduacao/dsrpt21/programacao/" target="_blank"><img src="./img/logo-disrupt21.png" alt=""></a>
+   <p>1TDST - NextStep</p>
  </footer>

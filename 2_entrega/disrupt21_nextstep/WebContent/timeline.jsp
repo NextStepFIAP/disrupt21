@@ -15,7 +15,7 @@
   <%@ include file="snippets/header.jsp"%>
 
   <section class="time-line" class="content">
-    <h1 class="time-line__title">A TIMELINE</h1>
+    <h1 class="time-line__title">EVENTOS</h1>
     <div class="controls" data-direction="-1"></div>
     <div class="controls next" data-direction="1"></div>
     <div class="dates-overflow">
@@ -23,31 +23,67 @@
       
        <!-- 1955 -->
       
+        <div class="date" data-target='["george-v2", "lorraine-v2", "biff-v2"]'>
+          <div class="date-year">
+           <c:set var = "dataAntes" value = "${listaEventos[0].getData()}"/>
+           <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
+           <p>${dataDepois}</p>
+          </div>
+          <div class="date-content">
+            <div class="date-image"><img src="${listaEventos[0].getUrlFoto()}"></div>
+            <div class="date-text">${listaEventos[0].getDescricaoPT()}</div>
+          </div>
+        </div>
+        
+        <div class="date" data-target="emmet-v2">
+          <div class="date-year">
+           <c:set var = "dataAntes" value = "${listaEventos[1].getData()}"/>
+           <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
+           <p>${dataDepois}</p>
+          </div>
+          <div class="date-content">
+            <div class="date-image"><img src="${listaEventos[1].getUrlFoto()}"></div>
+            <div class="date-text">${listaEventos[1].getDescricaoPT()}</div>
+          </div>
+        </div>
+        
         <div class="date">
+          <div class="date-year">
+           <c:set var = "dataAntes" value = "${listaEventos[2].getData()}"/>
+           <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
+           <p>${dataDepois}</p>       
+          </div>
+          <div class="date-content">
+            <div class="date-image"><img src="${listaEventos[2].getUrlFoto()}"></div>
+            <div class="date-text">${listaEventos[2].getDescricaoPT()}</div>
+          </div>
+        </div>
+        
+        <div class="date" data-target='["george-v1", "biff-v1"]'>
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[3].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
-           <p>${dataDepois}</p>
+           <p>${dataDepois}</p>          
           </div>
           <div class="date-content">
             <div class="date-image"><img src="${listaEventos[3].getUrlFoto()}"></div>
             <div class="date-text">${listaEventos[3].getDescricaoPT()}</div>
           </div>
         </div>
-        
-        <div class="date">
+       
+        <div class="date" data-target="lorraine-v1">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[4].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
-           <p>${dataDepois}</p>
+           <p>${dataDepois}</p>       
           </div>
           <div class="date-content">
             <div class="date-image"><img src="${listaEventos[4].getUrlFoto()}"></div>
             <div class="date-text">${listaEventos[4].getDescricaoPT()}</div>
           </div>
         </div>
-        
-        <div class="date">
+       
+         <div class="date">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[5].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
@@ -59,19 +95,19 @@
           </div>
         </div>
         
-        <div class="date">
+         <div class="date">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[6].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
-           <p>${dataDepois}</p>          
+           <p>${dataDepois}</p>       
           </div>
           <div class="date-content">
             <div class="date-image"><img src="${listaEventos[6].getUrlFoto()}"></div>
             <div class="date-text">${listaEventos[6].getDescricaoPT()}</div>
           </div>
         </div>
-       
-        <div class="date">
+        
+        <div class="date" data-target="emmet-v1">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[7].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
@@ -82,8 +118,8 @@
             <div class="date-text">${listaEventos[7].getDescricaoPT()}</div>
           </div>
         </div>
-       
-         <div class="date">
+        
+        <div class="date">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[8].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
@@ -95,7 +131,7 @@
           </div>
         </div>
         
-         <div class="date">
+        <div class="date">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[9].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
@@ -107,6 +143,8 @@
           </div>
         </div>
         
+        <!-- 1985 -->
+       
         <div class="date">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[10].getData()}"/>
@@ -143,44 +181,6 @@
           </div>
         </div>
         
-        <!-- 1985 -->
-       
-        <div class="date">
-          <div class="date-year">
-           <c:set var = "dataAntes" value = "${listaEventos[0].getData()}"/>
-           <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
-           <p>${dataDepois}</p>       
-          </div>
-          <div class="date-content">
-            <div class="date-image"><img src="${listaEventos[0].getUrlFoto()}"></div>
-            <div class="date-text">${listaEventos[0].getDescricaoPT()}</div>
-          </div>
-        </div>
-        
-        <div class="date">
-          <div class="date-year">
-           <c:set var = "dataAntes" value = "${listaEventos[1].getData()}"/>
-           <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
-           <p>${dataDepois}</p>       
-          </div>
-          <div class="date-content">
-            <div class="date-image"><img src="${listaEventos[1].getUrlFoto()}"></div>
-            <div class="date-text">${listaEventos[1].getDescricaoPT()}</div>
-          </div>
-        </div>
-        
-        <div class="date">
-          <div class="date-year">
-           <c:set var = "dataAntes" value = "${listaEventos[2].getData()}"/>
-           <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
-           <p>${dataDepois}</p>       
-          </div>
-          <div class="date-content">
-            <div class="date-image"><img src="${listaEventos[2].getUrlFoto()}"></div>
-            <div class="date-text">${listaEventos[2].getDescricaoPT()}</div>
-          </div>
-        </div>
-        
         <div class="date">
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[13].getData()}"/>
@@ -193,7 +193,7 @@
           </div>
         </div>
         
-        <div class="date">
+        <div class="date" data-target='["george-v3", "lorraine-v3", "biff-v3"]'>
           <div class="date-year">
            <c:set var = "dataAntes" value = "${listaEventos[14].getData()}"/>
            <c:set var = "dataDepois" value = "${fn:substring(dataAntes, 0, 4)}"/>
@@ -209,11 +209,11 @@
     </div>
   </section>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="js/global.js"></script>
+  
   <script src="js/timeline.js"></script>
 
 </body>
-
-<%@ include file="snippets/footer.jsp"%>
 
 
 </html>

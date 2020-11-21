@@ -3,15 +3,42 @@ $(window).on("load", function() {
     activeDate = 0,
     noDates = $(".date").length;
   
+  /*
   var hash = window.location.hash
 
   if(hash){
     $(hash).addClass("active")
     setTimeout(function(){
       $(hash).click();
-    },150)
+    },50)
   }
+  
+  else if(!hash.length){
+	$("#mcfly-v1").addClass("active")
+    setTimeout(function(){
+    	$(".date:first-of-type").click()
+      },50)
+  }
+  */
+  
+  var hash = (window.location.hash).replace("#","")
+  console.log(hash)
 
+  if(hash){
+	$("[data-target='[" + hash + "]']").addClass("active");
+    setTimeout(function(){
+    	$("[data-target='" + hash + "']").click();
+    },50)
+  }
+  
+  else if(!hash.length){
+	$("[data-target='mcfly-v1'").addClass("active")
+    setTimeout(function(){
+    	$(".date:first-of-type").click()
+      },50)
+  }
+  
+  
   function changeDate(a) {
     if (a < 0) {
       activeDate = 0;

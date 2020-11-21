@@ -4,15 +4,14 @@
 <html lang="pt-br">
 <head>
  <%@ include file="snippets/imports_head.jsp"%>
+ 
  <title>Home</title>
  <link rel="stylesheet" type="text/css" href="css/index.css" />
- 
 </head>
 
-<body>
+<body class="index">
 
-	<%@ include file="snippets/header.jsp"%>
-
+  <%@ include file="snippets/header.jsp"%>
   
   <section>
     <svg version="1.1" id="Back-to-the-futur" xmlns="http://www.w3.org/2000/svg"
@@ -21,7 +20,7 @@
 	</svg>
   </section>
 
-	<section>
+  <section>
 		<svg version="1.1" id="Back-to-the-futur" xmlns="http://www.w3.org/2000/svg"
 		  xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 1920 1080"
 		  style="enable-background:new 0 0 1920 1080;" xml:space="preserve">
@@ -1084,9 +1083,13 @@
         </g>
     </svg>
   </section>
-
-<%@ include file="snippets/footer.jsp"%>
-
+	
+  <%@ include file="snippets/footer.jsp"%>
+   
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+  <script src="js/global.js"></script>
+	
+  		
 </body>
 
 </html>

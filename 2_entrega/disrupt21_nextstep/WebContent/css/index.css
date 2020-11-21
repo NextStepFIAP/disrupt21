@@ -3,6 +3,12 @@ body {
   overflow-x: hidden;
 }
 
+header{
+	width:101%;
+	margin-top: -10px;
+    margin-left: -10px;
+}
+
 svg {
   max-width: 100%;
   max-height: 100%;

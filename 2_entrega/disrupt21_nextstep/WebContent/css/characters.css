@@ -25,7 +25,6 @@ body {
   overflow: hidden;
   -webkit-transition: width 0.5s ease;
   transition: width 0.5s ease;
-  cursor: pointer;
 }
 
 .tl-item:before,
@@ -102,24 +101,64 @@ body {
   opacity: 0;
 }
 
-.tl-content__versions{
-  background: #fff;
-  display: flex;
-  justify-content: space-around;
-}
-
-.tl-content__versions a{
-  color: #1779cf;
-  font-size: 20px;
-}
-
-
 .tl-content h1 {
   font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   color: #1779cf;
   font-size: 1.44rem;
   font-weight: normal;
+}
+
+.tl-content .texto{
+	opacity: 0;
+	max-height: 0;
+	visibility: hidden;
+	transition: opacity 2s, visibility 0.01s, max-height 0.01s;
+}
+
+
+.tl-content .texto.active{
+	opacity: 1;
+	max-height: 999em;
+	visibility: visible;
+	transition: opacity 2s, visibility 0.01s, max-height 0.01s;
+}
+
+.tl-buttons .versions{
+	display:flex;
+	padding: 3px;
+    background: lightgrey;
+}
+
+.tl-buttons .versions button{
+	flex: 1;
+	padding: 3px;
+	margin: 0 3px;
+	cursor:pointer;
+}
+
+.tl-buttons .versions button.active{
+	font-weight: 700;
+	background: #031625;
+    color: white;
+}
+
+.tl-buttons .link{
+	margin-top: 20px;
+	background: #1779cf;
+	padding: 5px;
+	transition: 0.3s;
+}
+
+.tl-buttons .link:hover{
+	background: #031625;
+	font-weight: 700;
+	transition: 0.3s;
+}
+
+.tl-buttons .link a{
+	font-size:20px;
+	color: #fff;
 }
 
 .tl-year {
@@ -137,6 +176,7 @@ body {
   font-family: 'Pathway Gothic One', Helvetica Neue, Helvetica, Arial, sans-serif;
   font-size: 1.728rem;
   line-height: 0;
+  white-space:nowrap;
 }
 
 .tl-bg {

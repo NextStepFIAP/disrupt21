@@ -12,7 +12,7 @@
           <h1><a href="timeline">Timeline</a></h1>
         </li>
         <li>
-          <h1><a href="ia.jsp">I.A.</a></h1>
+          <h1><a href="ia.jsp">I.A</a></h1>
         </li>
         <li>
           <h1><a href="uml.jsp">UML</a></h1>
